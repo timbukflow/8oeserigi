@@ -25,7 +25,8 @@ body {
 h1,
 .menunav,
 .navline li a,
-figcaption {
+figcaption,
+.button {
   color: #B3A280;
   font-family: 'Tinos', serif;
   font-weight: 400;
@@ -53,8 +54,24 @@ figcaption {
   padding: 15px;
   line-height: 1.25;
 }
+.button {
+  font-size: 25px;
+  display: block;
+  width: 35%;
+  border: 1px solid;
+  margin: 0 auto;
+  padding: 10px;
+  -webkit-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.button:hover {
+  background-color: #B3A280;
+  color: #fff;
+}
 
-h2, p {
+h2,
+p,
+.navkontakt a {
   margin: 15px 10% 100px;
   color: #333;
   font-family: 'Arimo', sans-serif;
@@ -66,6 +83,24 @@ h2, p {
   hyphens: auto;
   -webkit-hyphens: auto;
   text-decoration: none;
+}
+
+h2.title {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin: 0 15% 50px;
+
+}
+
+.tabeltwo p {
+  text-align: left;
+  position: relative;
+  margin: 15px;
+  border-bottom: 1px solid #333;
+}
+.tabeltwo p span {
+  position: absolute;
+  right: 0;
 }
 
 
@@ -114,12 +149,33 @@ h2, p {
   margin-left: 25px;
 }
 
+.navkontakt {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+}
+.navkontakt a {
+  margin-left: 25px;
+  padding-left: 40px;
+  color: #B3A280 !important;
+  text-align: left;
+  text-decoration: none;
+}
+
 .navcontainer li {
   padding: 15px 0;
   left: 150px;
   position: relative;
-  -webkit-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.navline li a {
+  -webkit-transition: padding-left 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: padding-left 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.navline li a:hover {
+  padding-left: 10px;
 }
 
 .menulifade {
@@ -161,11 +217,35 @@ h2, p {
     position: relative;
 }
 
+article {
+  margin: 50px 0 100px;
+  width: 100%;
+}
+
 figure {
   position: relative;
 }
 
 figure.imgone img {
+  width: 100%;
+}
+
+figure.imgtwo {
+  float: left;
+  margin-bottom: 50px;
+}
+
+figure.imgtwo.first{
+  margin-right: 1%;
+  width: 49%
+}
+
+figure.imgtwo.second{
+  margin-left: 1%;
+  width: 49%
+}
+
+figure.imgtwo img {
   width: 100%;
 }
 
@@ -177,7 +257,15 @@ figcaption {
   bottom: -20px;;
   left: 50px;
 }
+.imgtwo figcaption {
+  width: 50%;
+}
 
+.tabeltwo {
+  width: 50%;
+  float:left;
+  margin-bottom: 100px;
+}
 
 
 
@@ -677,7 +765,7 @@ footer {
 .footerholder {
   display: inline-block;
   position: relative;
-  width: 100%;
+  width: 80%;
   margin: 70px 10% 50px;
 }
 
@@ -687,44 +775,32 @@ footer p {
     margin: 0;
     text-align: left;
     text-decoration: none;
+    -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-footer p {
+footer a:hover {
+  padding-left: 10px;
+}
+
+.footerleft p {
   padding-bottom: 20px;
 }
 
-.footerleft {
-  float: left;
-  width: 40%;
-}
-
-
-.impressum {
-    color: #fff !important;
-    margin: 0;
-    cursor: pointer;
-}
-
-.footermid li a:hover,
-.footermid li p:hover,
-.footerleft a:hover,
-#impressum a:hover,
-span.disclaimer:hover,
-span.konditionen:hover {
-  font-weight: 600;
-}
-
+.footerleft,
 .footerright {
-  width: 25%;
-  position: absolute;
-  right: 0;
-  bottom: 2px;
+    width: 50%;
+    float: left;
+}
+.footerright ul {
+  margin: 0;
+}
+.footerright li {
+  padding: 15px 0;
+  cursor: pointer;
 }
 
-.footerright img {
-  margin-top: 30px;
-  width: 50%;
-}
+
 
 #impressum {
     display: none;
@@ -799,600 +875,22 @@ responsive
 -----------------------------------*/
 
 @media only screen and (max-width: 1200px) {
-  /*--home--*/
-  h2, p, a {
-    font-size: 20px;
-  }
-  .start .header {
-    font-size: 42px;
-  }
-  .navcontainer a {
-    font-size: 32px;
-  }
-  .navcontainer {
-    top: -506px;
-  }
-  .navcontainer ul {
-    margin-bottom: 80px;
-  }
-  .menufade {
-    top: 506px;
-  }
-  h1 {
-    font-size: 60px;
-  }
-  .wohnen .header,
-  .gewerbe .header {
-    top: -107px;
-  }
-  .wohnen .header.two {
-    top: -57px;
-  }
-  /*--romanshorn--*/
-  .romanshorn .header {
-    font-size: 52px;
-  }
-  /*--wohnen--*/
-  .reservation {
-    margin: 0 0 30px 30px;
-  }
-  #bulding {
-    bottom: 165px;
-  }
-  .ct h4,
-  .ct h4 span {
-    font-size: 35px;
-  }
-  table, th, td, td a {
-    font-size: 16px;
-  }
-  th {
-      font-size: 12px;
-  }
+
 }
 
 @media only screen and (max-width: 1024px) {
-
-  /*--home--*/
-  .start .header {
-    font-size: 35px;
-    width: 50%;
-    margin-right: 10%;
-    top: 140px;
-  }
-  .startimgone {
-    width: 115%;
-  }
-  .navcontainer a {
-    font-size: 32px;
-  }
-  .navcontainer {
-    width: 60%;
-  }
-  .navbutton {
-    right: 7%;
-  }
-  .inputs {
-    margin: 20px 10%;
-  }
-  .inputs span {
-    font-size: 25px;
-  }
-  h3 {
-    font-size: 25px;
-  }
-  .start h2, .start p {
-  margin: 100px 15% 0 15% ;
-  }
-  .start p, .wohnen p, .gewerbe p, .map p {
-  margin-top: 25px;
-  }
-  .wohnen h2, .wohnen p, .gewerbe h2, .gewerbe p, .map h2, .map p {
-  margin: 0 15% 0;
-  }
-  .buttoncontainer {
-    margin: 0 15%;
-  }
-  .buttoncontainer p {
-    margin: 25px 0 0 0;
-  }
-  h1 {
-    font-size: 50px;
-  }
-  .wohnen .header,
-  .gewerbe .header {
-    top: -97px;
-  }
-  .wohnen .header {
-    margin-bottom: 50px;
-  }
-  .wohnen .header.two {
-    top: -47px;
-  }
-  /*--romanshorn--*/
-  .romanshorn .header {
-    font-size: 52px;
-  }
-  .distanzcontainer {
-    margin: 0 0 0 5%;
-    width: 95%;
-  }
-  .distanz {
-    width: 50%;
-  }
-  .distanz p {
-    margin: 10px 0 0 0;
-  }
-  .distanz p:first-child {
-    margin-top: 35px;
-  }
-  /*--wohnen--*/
-
-  .ct h4,
-  .ct h4 span {
-    font-size: 30px;
-  }
-  table, th, td, td a {
-    font-size: 15px;
-  }
-  th {
-      font-size: 12px;
-  }
-
-  /*--baubeschreibung--*/
-  .accordion h3 {
-    font-size: 20px;
-  }
-  .accordion li {
-    font-size: 17px;
-    letter-spacing: 0.05em;
-  }
-  .accordion img {
-    width: 15px;
-    margin-top: 0px;
-  }
-  .accordioncontainer h2 {
-    margin-left: 10%;
-  }
-
-  /*--footer--*/
-  footer a, .footermid a, .footermid li {
-    line-height: 1.33;
-  }
-  .footerright img {
-    width: 70%;
-  }
 
 }
 
 @media only screen and (max-width: 910px) {
 
-  /*--home--*/
-  h2, p, a {
-    font-size: 18px;
-  }
-  h1 {
-    font-size: 45px;
-  }
-  .start .header {
-    font-size: 50px;
-    width: 70%;
-    margin: 0 15% 0 15%;
-    top: -47px;
-    display: inline-block;
-    position: relative;
-  }
-  .startimgone {
-    width: 115%;
-  }
-  .navbutton {
-    right: 70px;
-  }
-  .inputs {
-    width: 40%;
-  }
-  .start .inputs {
-    margin: 60px 10%;
-  }
-  .start h2, .start p {
-  margin: 50px 15% 0 15% ;
-  }
-  .buttoncontainer p {
-    margin: 25px 0 0 0;
-  }
-  .wohnen .header,
-  .gewerbe .header {
-    width: 70%;
-    margin: 0 15%;
-    top: -92px;
-  }
-  .wohnen .header.two {
-    top: -42px;
-  }
-  .daynightcontainer {
-    margin-left: 15%;
-    top: -65px;
-  }
-  .wohnenimgthree {
-    margin-bottom: 0;
-  }
-  .wcontainer .inputs {
-    margin-top: 0;
-    margin-bottom: 60px;
-  }
-
-  /*--romanshorn--*/
-  .distanz p {
-    margin: 10px 0 0 0;
-  }
-
-  /*--wohnen--*/
-  .logowohnangebot {
-    position: relative;
-    z-index:9;
-    margin-bottom: 0;
-  }
-  .cb {
-  display: none;
-  }
-  .ct {
-    width: 100%;
-    background-color: #fff;
-    padding-top: 0px;
-  }
-  .ct h4,
-  .ct h4 span {
-    padding-top: 115px;
-  }
-  .ct .bresp {
-    display: block;
-  }
-
-  /*--baubeschreibung--*/
-  .header.bau {
-    margin-bottom: 50px;
-  }
-  .accordion {
-    width: 80%;
-    margin-bottom: 0;
-  }
-  .accordion.right {
-    margin-left: 10%;
-    margin-bottom: 100px;
-  }
-  .accordioncontainer h2 {
-    padding: 0 0 15px 0;
-  }
-  .accordion.highlights {
-    margin-left: 15%;
-    padding: 0 0px;
-    width: 70%;
-  }
-  .accordion.highlights h3 {
-    padding-left: 0px;
-  }
-
-  .containerform,
-  .containeranmeldung {
-    width: 80%;
-    margin-bottom: 60px;
-  }
-
-  /*--footer--*/
-  footer a, .footermid a, .footermid li {
-    line-height: 1.33;
-  }
-
-  .footerright {
-    width: 80%;
-    position: relative;
-    margin: 0 10%;
-    display: inline-block;
-  }
-  .footerright img{
-    width: 30%;
-    margin-right: 20%;
-    margin-top: 50px;
-    float: left;
-  }
-  .footermid,
-  .footerright img:last-child {
-    margin-left: 50px;
-    margin-right: 10%;
-  }
 }
 
 @media only screen and (max-width: 650px) {
-  /*--nav--*/
-  .logo {
-    margin: 70px 10px;
-  }
-  .logo img {
-    width: 200px;
-  }
-  .navbutton {
-    right: 18px;
-    top: 112px;
-  }
-  .navbutton img {
-    width: 20px;
-  }
-  .menudescription {
-    font-size: 15px;
-    font-weight: 500;
-    right: -5px;
-  }
-  .navcontainer {
-    width: 100%;
-    top: -415px;
-  }
-  .navcontainer li {
-    padding: 10px 0;
-    margin: 0;
-  }
-  .menufade {
-    top: 415px;
-  }
-  .navcontainer a {
-    font-size: 27px;
-  }
-  .navone, .navtwo, .navthree, .navfour {
-    height: 30px;
-  }
-  /*--home--*/
-  h2, p, a {
-    font-size: 17px;
-  }
-  .startimgone {
-    margin-left: 20px;
-    width: 130%;
-  }
-  .start .header {
-    font-size: 35px;
-    width: 80%;
-    margin: 0 10% 0 10%;
-    top: -35px;
-    line-height: 1.25;
-  }
-  .wohnen h2, .wohnen p, .gewerbe h2, .gewerbe p, .map h2, .map p {
-    margin: 0 10% 0;
-  }
-  .wohnen h2 {
-    width: 80%;
-  }
-  .start h2, .start p {
-  margin: 25px 10% 0 10% ;
-  }
-  .buttoncontainer p {
-    margin: 25px 0 0 0;
-  }
-  .inputs {
-    width: 70%;
-  }
-  .wcontainer .inputs {
-    margin-top: 40px;
-    float: right;
-  }
-  .startimgtwo {
-    margin: 0 0 50px;
-  }
-  .buttoncontainer {
-    margin: 0 10%;
-  }
-  .wohnen {
-    margin-top: 100px;
-  }
-  .wohnenimg {
-    width: 90%;
-    margin-right: 10%;
-  }
-  .wohnenimgone {
-    margin-top: 40px;
-    width: 100%;
-  }
-  .wohnenimgtwo,
-  .wohnenimgthree {
-    width: 90%;
-  }
-  .wohnenimgthree {
-    margin-top: 40px;
-  }
-  .wohnen .header,
-  .gewerbe .header{
-    width: 80%;
-    margin: 0 10%;
-    font-size: 35px;
-    top: -83px;
-  }
-  .wohnen .header.two {
-    top: -33px;
-    margin-bottom: 40px;
-  }
-  .daynightcontainer {
-    margin-left: 10%;
-    top: -55px;
-  }
-  .gewerbe {
-    padding-bottom: 100px;
-  }
-  .gewerbeimg {
-    width: 90%;
-    margin-left: 10%;
-  }
-  .gewerbe .header {
-    margin: 0 0 0 20%;
-  }
-  /*--romanshorn--*/
-  .distanzcontainer {
-    margin: 0 5% 0 5%;
-    width: 90%;
-  }
-  .distanz {
-    width: 100%;
-  }
-  .distanz p {
-    margin: 10px 0 0 0;
-  }
-  .map {
-    margin-top: 125px;
-    padding-bottom: 100px;
-  }
-  .mapimg {
-    height: 500px;
-    width: 100%;
-    margin-right: 0;
-  }
-  .map .color {
-    width: 100%;
-  }
-  .inputs.map {
-    margin: 25px 10% 50px 0;
-  }
-  .map h2 {
-    width: 80%;
-  }
 
-  /*--wohnen--*/
-  .logowohnangebot img {
-    width: 200px;
-  }
-  .ct {
-    margin-top: 30px;
-  }
-  .ct h4,
-  .ct h4 span {
-    font-size: 23px;
-    padding-top: 32px;
-    line-height: 1.3;
-  }
-  .ct h4 span {
-    display: block;
-  }
-  .ct .bresp {
-    width: 120px;
-  }
-  .tableresp {
-    width: 100%;
-    overflow-x:auto
-  }
-  table {
-    width: 100%;
-  }
-  table, th, td, td a {
-    font-size: 14px;
-  }
-  th {
-      font-size: 10px;
-  }
-  .plan a {
-    font-size: 14px;
-    margin: 30px;
-    bottom: 30px;
-  }
-  .plan img.norden {
-    right: auto;
-    bottom: auto;
-    margin: 30px;
-    margin-top: 50px;
-  }
-  /*--baubeschreibung--*/
-  .baubeschreibung, .kontaktcontainer {
-    margin-top: 210px;
-  }
-  .header.bau {
-    font-size: 35px;
-    margin: 0px 7% 40px 7%;
-  }
-  .accordion h3 {
-    font-size: 17px;
-  }
-  .accordion,
-  .accordion.right {
-    margin-left: 7%;
-    margin-right: 7%;
-    width: 86%;
-  }
-  .accordion.highlights {
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
-  }
-
-  #optoutbanner99 {
-    width: 100%;
-    text-align: left;
-  }
-  #optoutbanner99 a,
-  #optoutbanner99 p{
-    font-size: 12px;
-  }
-  #acceptga {
-    width: 100%;
-    box-sizing: border-box;
-  }
-
-
-
-
-  /*--footer--*/
-  .colorfooter {
-    width: 75%;
-    height: 35px;
-    top: -35px;
-  }
-  .footerleft,
-  .footermid {
-    width: 80%;
-  }
-  .footermid,
-  .footerright {
-    margin-left: 10%;
-    margin-top: 50px;
-  }
-  .footerright img {
-    width: 50%;
-    margin-top: 0;
-  }
-  .footerright img:last-child {
-    margin-left: 0;
-    margin-top: 40px;
-  }
-  #impressum {
-    width: 80%;
-  }
 }
 @media only screen and (max-width: 350px) {
-  .navcontainer a {
-    font-size: 24px;
-  }
-  .navcontainer {
-    width: 100%;
-    top: -405px;
-  }
-  .menufade {
-    top: 405px;
-  }
-  .logo img {
-    width: 180px;
-  }
-  .start .header {
-    font-size: 30px;
-    top: -30px;
-  }
-  h2, p, a {
-    font-size: 16px;
-  }
-  .wohnen .header,
-  .gewerbe .header{
-    width: 80%;
-    margin: 0 10%;
-    font-size: 30px;
-    top: -78px;
-  }
-  .wohnen .header.two {
-    top: -28px;
-    margin-bottom: 40px;
-  }
+
 }
 
 /*----------------------------------

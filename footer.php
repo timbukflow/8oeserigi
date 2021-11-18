@@ -20,16 +20,14 @@
     </div>
 
     <nav class="footerright">
-      <ul>
-        <li><a href="index"> Stepcube</a></li>
-        <li><a href="romanshorn">Romanshorn</a></li>
-        <li><a href="wohnen-gewerbe-buero-angebot">Wohnungen</a></li>
-				<li><a href="wohnen-gewerbe-buero-angebot#gewerbe">Gewerbe / Büro</a></li>
-        <li><a href="baubeschreibung">Baubeschreibung</a></li>
-        <li><a href="kontakt">Kontakt</a></li>
-        <li><p class="impressum" data-toggle="#impressum">Impressum</p></li>
-        <li><p class="impressum" data-toggle="#datenschutz">Konditionen</p></li>
-      </ul>
+      <ul class="navline">
+				<li><a href="index">8 Öserigi</a></li>
+				<li><a href="standort">Standort</a></li>
+				<li><a href="grundrisse-preise">Grundrisse & Preise</a></li>
+				<li><a href="baubeschreibung">Baubeschreibung</a></li>
+        <li><a class="impressum" data-toggle="#impressum">Impressum</a></li>
+        <li><a class="impressum" data-toggle="#datenschutz">Konditionen</a></li>
+			</ul>
     </nav>
   </div>
 
@@ -41,13 +39,13 @@
         <br>
         <a href="https://www.schwizerschlatter.com" target="_blank">schwizerschlatter.com</a>
       </p>
-      <p class="disclaimer">© 2021 STEPCUBE. All rights reserved</p>
+      <p class="disclaimer">© 2021 8 Öserigi | Appenzell Innerrhoden. All rights reserved</p>
   </div>
   <div id="datenschutz">
       <p>
       <strong>Konditionen</strong><br><br>
-      Die Website www.stepcube.ch dient der Informationsvermittlung über das Überbauungsprojekt Stepcube in Romanshorn.
-      Der Sicherheit und Störungsfreiheit sowie der Aktualität bei der Benutzung der Website wurde grosse Aufmerksamkeit geschenkt. Sie wird regelmässig technisch auf den neuesten Stand gebracht und inhaltlich aktualisiert. Trotz bestmöglicher Vorkehrungen können Sicherheit und Störungsfreiheit sowie Aktualität und Vertraulichkeit von Daten und/oder Inhalten aufgrund des öffentlichen Charakters des Internets nicht abschliessend garantiert werden. Sie benutzen das Internet bzw. die von uns publizierten Webseiten grundsätzlich auf eigenes Risiko. Dies gilt auch für E-Mails [elektronische Post] sowie Links, die Sie zu uns führen, bzw. für Links, die wir Ihnen anbieten, sowie für den Inhalt der via Links aufgerufenen Websites von Dritten. Stepcube übernimmt keinerlei Haftung für direkte oder indirekte Schäden, die den Nutzern der Webseiten oder Dritten durch irgendwelche Kontakte oder Transaktionen über das Internet entstehen; sie haften insbesondere nicht für Richtigkeit, Aktualität und Vollständigkeit der angezeigten bzw. telefonisch und elektronisch übermittelten Daten bzw. Inhalte. Eine Haftung wird namentlich [aber nicht abschliessend] ausgeschlossen für Übermittlungsfehler, technische Mängel, Störungen oder Unterbrechungen des Telefonnetzes/Internetzuganges, rechtswidrige Eingriffe in Einrichtungen der Netze, Einschmuggeln von Viren, Kopieren und Verfälschen von Daten und Inhalten, Überlastung der Netze, Nichterkennen von Fälschungen, allfällige Legitimationsmängel sowie mutwillige oder zufällige Blockierung elektronischer Zugänge durch Dritte. Alle Rechte vorbehalten. Jede Art der Vervielfältigung, Verbreitung, Auswertung oder Veränderung – auch auszugsweise – ist ohne vorgängige schriftliche Genehmigung durch Sproll & Ramseyer AG untersagt.
+      Die Website www.8oeserigi.ch dient der Informationsvermittlung über das Überbauungsprojekt 8 Öserigi in Appenzell Innerrhoden.
+      Der Sicherheit und Störungsfreiheit sowie der Aktualität bei der Benutzung der Website wurde grosse Aufmerksamkeit geschenkt. Sie wird regelmässig technisch auf den neuesten Stand gebracht und inhaltlich aktualisiert. Trotz bestmöglicher Vorkehrungen können Sicherheit und Störungsfreiheit sowie Aktualität und Vertraulichkeit von Daten und/oder Inhalten aufgrund des öffentlichen Charakters des Internets nicht abschliessend garantiert werden. Sie benutzen das Internet bzw. die von uns publizierten Webseiten grundsätzlich auf eigenes Risiko. Dies gilt auch für E-Mails [elektronische Post] sowie Links, die Sie zu uns führen, bzw. für Links, die wir Ihnen anbieten, sowie für den Inhalt der via Links aufgerufenen Websites von Dritten. 8 Öserigi übernimmt keinerlei Haftung für direkte oder indirekte Schäden, die den Nutzern der Webseiten oder Dritten durch irgendwelche Kontakte oder Transaktionen über das Internet entstehen; sie haften insbesondere nicht für Richtigkeit, Aktualität und Vollständigkeit der angezeigten bzw. telefonisch und elektronisch übermittelten Daten bzw. Inhalte. Eine Haftung wird namentlich [aber nicht abschliessend] ausgeschlossen für Übermittlungsfehler, technische Mängel, Störungen oder Unterbrechungen des Telefonnetzes/Internetzuganges, rechtswidrige Eingriffe in Einrichtungen der Netze, Einschmuggeln von Viren, Kopieren und Verfälschen von Daten und Inhalten, Überlastung der Netze, Nichterkennen von Fälschungen, allfällige Legitimationsmängel sowie mutwillige oder zufällige Blockierung elektronischer Zugänge durch Dritte. Alle Rechte vorbehalten. Jede Art der Vervielfältigung, Verbreitung, Auswertung oder Veränderung – auch auszugsweise – ist ohne vorgängige schriftliche Genehmigung durch Meier & Partner Immobilien AG untersagt.
       <br><br>
       Die vorliegende Webseite stellt das Bauvorhaben in der Projektphase dar. Aus sämtlichen Plänen, Zeichnungen, Darstellungen, Möblierungen, Visualisierungen oder Beschreibungen können keinerlei Ansprüche abgeleitet werden. Insbesondere kommt den Plänen keine gesetzliche Wirkung von Grundbuchplänen zu. Ausführungsbedingte Änderungen, Anpassungen und/oder Massabweichungen können vorkommen und bleiben jederzeit ausdrücklich vorbehalten. Sämtliche Massangaben sind Circa-Masse.
       </p>
