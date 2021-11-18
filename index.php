@@ -3,8 +3,8 @@
 <!--[if IE 8]>	 <html class="no-js lt-ie9" lang="de"><![endif]-->
 <!--[if gt IE 8]><!--><html class="no-js" lang="de"><!--<![endif]-->
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
-<title>8 &Ouml;serigi | Appenzell Innerrhoden</title>
-<meta name="description" content="8 Öserigi | Appenzell Innerrhoden"/>
+<title>8 &Ouml;serigi</title>
+<meta name="description" content="8 Öserigi"/>
 <?php include 'head.php'; ?>
 </head>
 

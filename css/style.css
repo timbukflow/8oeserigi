@@ -89,7 +89,11 @@ h2.title {
   font-weight: 600;
   letter-spacing: 0.5px;
   margin: 0 15% 50px;
-
+}
+.copyright {
+  font-size: 14px;
+  display: block;
+  padding-top: 30px;
 }
 
 .tabeltwo p {
@@ -102,11 +106,6 @@ h2.title {
   position: absolute;
   right: 0;
 }
-
-
-
-
-
 
 /*----------------------------------
     header nav
@@ -193,6 +192,7 @@ h2.title {
   position: relative;
   margin: 0 auto;
   background-color: #333;
+  z-index: 1;
 }
 
 .logo {
@@ -201,10 +201,32 @@ h2.title {
   margin: 10% 20%
 }
 
+.imgfull{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-image: url("../img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-standort-seealpsee.jpg");
+}
+
+.headerstandort {
+  position: fixed;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 45vh;
+  color: #fff;
+  z-index: 2;
+}
+
 .bergprofil {
   width: 100%;
   position: absolute;
   bottom: 0;
+  z-index: 2;
 }
 
 /*-----------------------------------*/
@@ -213,8 +235,9 @@ h2.title {
     background-color: #fff;
     overflow: hidden;
     width: 80%;
-    margin: 0 10%;
+    padding: 0 10%;
     position: relative;
+    z-index: 2;
 }
 
 article {
@@ -254,7 +277,7 @@ figcaption {
   background-color: #B3A280;
   width: 30%;
   z-index: 1;
-  bottom: -20px;;
+  bottom: -20px;
   left: 50px;
 }
 .imgtwo figcaption {
@@ -267,58 +290,10 @@ figcaption {
   margin-bottom: 100px;
 }
 
-
-
-
-
-/*----------------------------------
-    romanshorn
------------------------------------*/
-
-.distanzcontainer {
-  margin: 0 10%;
-  width: 80%;
-  float: left;
-}
-
-.distanz {
-  width: 25%;
-  float: left;
-}
-
-.distanz p {
-  border-bottom: 1px solid #92AFC8;
-  padding-bottom: 5px;
-  margin: 0;
-  margin-top: 10px;
-  width: 90%;
-  padding-left: 5px;
-  font-size: 16px;
-}
-
-.distanz span {
-  float: right;
-  padding-right: 5px;
-  font-size: 16px;
-}
-
-.distanz p:first-child {
-  font-weight: 600;
-  margin-top: 100px;
-}
-
 .map {
-  margin-top: 150px;
+  margin-bottom: 50px;
 }
 
-.map .color {
-  background-color: #92AFC8;
-  position: relative;
-  display: inline-block;
-  width: 90%;
-  top: -80px;
-  height: 25px;
-}
 
 /*----------------------------------
     cont0r 2g
@@ -557,107 +532,6 @@ th:last-child, td:last-child {border-right: none;}
     height: 60px;
 }
 
-/*----------------------------------
-    contact form
------------------------------------*/
-
-.containerform {
-  margin-left: 10%;
-  width: 40%;
-  float: left;
-  margin-bottom: 100px;
-}
-
-.containerform h1 {
-  margin-top: 0;
-  padding-left: 10px;
-}
-
-.containeranmeldung {
-  margin-right: 10%;
-  width: 30%;
-  float: right;
-}
-
-.kontakt {
-  color: #223870;
-}
-
-.buttonanmeldung {
-  display: block;
-  margin: 10px 0;
-}
-
-.error {
-    color: #ff0000;
-    font-size: 15px;
-    line-height: 1;
-    padding-left: 14px
-}
-
-.success {
-    color: #deb887;
-    text-align: left;
-    font-size: 17px;
-    padding: 10px;
-}
-
-
-#contact input,
-#contact textarea,
-#contact button {
-    font-family: 'Manrope', sans-serif;
-    border-radius: 0;
-    box-sizing: border-box;
-    width: 100%;
-    border: 1px solid #223870;
-    box-shadow: none;
-    margin: 15px 0 5px;
-    padding: 10px 12px;
-    font-size: 17px;
-    letter-spacing: 0.05em;
-}
-
-#contact input:hover,
-#contact textarea:hover {
-    -webkit-transition:border-color 0.3s ease-in-out;
-    -moz-transition:border-color 0.3s ease-in-out;
-    transition:border-color 0.3s ease-in-out;
-}
-
-#contact textarea {
-    height:150px;
-    max-width:100%;
-    resize:none;
-}
-
-#contact button {
-    cursor: pointer;
-    background-color: #223870;
-    color: #fff;
-    width: 50%;
-}
-
-#contact button:hover {
-    opacity: 0.75;
-    -webkit-transition:background-color 0.3s ease-in-out;
-    -moz-transition:background-color 0.3s ease-in-out;
-    transition:background-color 0.3s ease-in-out;
-}
-
-#contact button:active {
-    box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5);
-}
-
-#contact input:focus,
-#contact textarea:focus {
-    outline:0;
-    background-color: none;
-}
-::-webkit-input-placeholder {color:#223870;}
-:-moz-placeholder {color:#223870;}
-::-moz-placeholder {color:#223870;}
-:-ms-input-placeholder {color:#223870;}
 
 /*----------------------------------
     accordion
@@ -760,6 +634,7 @@ footer {
     display: inline-block;
     background-color: #333;
     width: 100%;
+    z-index: 3;
 }
 
 .footerholder {
