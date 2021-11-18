@@ -22,7 +22,7 @@ body {
     padding: 0px;
 }
 
-h1,
+h1, h3,
 .menunav,
 .navline li a,
 figcaption,
@@ -69,8 +69,7 @@ figcaption {
   color: #fff;
 }
 
-h2,
-p,
+h2, h4, p,
 .navkontakt a {
   margin: 15px 10% 100px;
   color: #333;
@@ -90,6 +89,7 @@ h2.title {
   letter-spacing: 0.5px;
   margin: 0 15% 50px;
 }
+
 .copyright {
   font-size: 14px;
   display: block;
@@ -296,240 +296,46 @@ figcaption {
 
 
 /*----------------------------------
-    cont0r 2g
+    grundrisse
 -----------------------------------*/
-
-.cb {
-  height: 100vh;
-  width: 40%;
-  margin: 0px 0px;
-  position: fixed;
-  display: inline-block;
-}
-
-#bulding {
-    position: absolute;
-    left: 10%;
-    width: 80%;
-    bottom: 175px;
-    overflow: visible;
-    cursor: pointer;
-}
-
-.st0{ fill:#fff;stroke:#1D3A6C;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:10;}
-.st1{ fill:none;stroke:#1D3A6C;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:10;}
-.st3{ fill:#fff;stroke:#1D3A6C;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:10;}
-.st4{ fill:#fff;stroke:#1D3A6C;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:10 5;}
-
-g, tr, polygon {
-    transition: all 0.3s ease-in-out;
-}
-
-.activ {
-    fill: #1D3A6C;
-    background-color: rgba(22,38,70, 0.25);
-    -webkit-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
-    transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
-.activug {
-    background-color: rgba(22,38,70, 0.25);
-    -webkit-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
-    transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
-.up {
-    opacity: 0.5;
-    -webkit-transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
-    transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
-    -webkit-transform:  translate(-20px, -180px);
-    -moz-transform:     translate(-20px, -180px);
-    -o-transform:       translate(-20px, -180px);
-    -ms-transform:      translate(-20px, -180px);
-    transform:          translate(-20px, -180px);
-}
-.down {
-    opacity: 0.5;
-    -webkit-transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
-    transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
-    -webkit-transform:  translate(0, 20px);
-    -moz-transform:     translate(0, 20px);
-    -o-transform:       translate(0, 20px);
-    -ms-transform:      translate(0, 20px);
-    transform:          translate(0, 20px);
-}
-
-.reservation {
-    position: absolute;
-    bottom: 0px;
-    margin: 0 0 60px 60px;
-}
-
-.reservation p {
-    margin: 0 0 15px 10px;
-}
-
-/*----------------------------------
-    container table
------------------------------------*/
-
-.ct {
-    width: 60%;
-    position: relative;
-    float: right;
-    padding-top: 60px;
-    display: inline-block;
-    background-color: #fafafa;
-}
-
-.ct h4 {
-    margin: 0 5% 0% 5%;
-    padding-left: 10px;
-    padding-top: 50px;
-    font-size: 40px;
-}
-
-.ct h4 span {
-    font-weight: 600;
-    font-size: 40px;
-}
-
-.ct .bresp {
-    margin-right: 6%;
-    float: right;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    display: none;
-}
-
-table {
-    width: 90%;
-    margin: 3% 5%;
-    border: none;
-}
-
-table, th, td, td a {
-    font-family: 'Manrope', sans-serif;
-    color: #223870;
-    font-size: 18px;
-    text-decoration: none;
-    font-weight: 300;
-    text-align: left;
-    letter-spacing: 0.06em;
-    border-collapse: collapse;
-    line-height: 1.5;
-}
-
-th {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.25;
-    vertical-align: top;
-}
-
-th, td {
-    padding: 7px 0px 5px 10px;
-    text-align: left;
-    border-bottom: 1px solid #BEC7BE;
-    border-right: 1px dashed #BEC7BE;
-    white-space: nowrap;
-    cursor: pointer;
-}
-
-td:nth-child(7) {
-  font-weight: 500;
-}
-
-
-
-td a:hover {
-    opacity: 1;
-}
-
-.reserv {
-  font-size: 12px;
-}
-
-.downloadplan {
-    padding-top: 20px;
-}
-
-th:last-child, td:last-child {border-right: none;}
-
-.planb {cursor: pointer;}
-.plani {margin: 3px; opacity: 0.5;}
-.plani:hover {opacity: 1;}
-
-.plan {
-    display: none;
-    position: fixed;
-    top: 0px;
-    right: 0px;
+.gcontainer {
     width: 100%;
-    height:  100vh;
-    background-color: #fafafa;
-    cursor: pointer;
-    z-index: 10;
-}
-.plan img {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    max-height: 60%;
-    max-width: 60%;
-}
-.plan a {
-    position: absolute;
-    bottom: 0;
-    margin: 50px;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-.plan .linkbaubeschreibung {
-    position: absolute;
-    bottom: 0;
-    right: 80px;
-    margin: 50px;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-.plan a img {
     position: relative;
+    margin: 0 auto;
+    background-color: #333;
+    display: inline-block;
+    z-index: 1;
+}
+.gbereich {
+  width: 90%;
+  margin: 0 5%;
+}
+.ghaus {
+  width: 16%;
+  padding: 2%;
+  float: left;
 }
 
-.planhover {
-    display: block;
-}
-.r td {
-    opacity: 0.5;
-}
-.v td {
-    color: rgba(22,38,70, 0.5);
-}
-.v td:last-child {
-    font-style: normal;
-    color: #718166;
-}
-.data {
-    text-align: left;
-    font-size: 14px;
-    border: none;
-    padding-top: 30px;
+.hausimg {
+  margin-right: 25px;
 }
 
-.plan img.norden {
-    position: absolute;
-    bottom: 0;
-    left: auto;
-    top: auto;
-    right: 0;
-    margin: 50px;
-    height: 60px;
+.ghaus h4 {
+  margin: 0;
+  display: inline-block;
+  padding: 5px 0;
+}
+.ghaus h4 a {
+  color: #B3A280;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+.ghaus h3 {
+  font-size: 36px;
+  margin: 0;
+  display: inline-block;
+  padding: 20px 0 15px;
 }
 
 
