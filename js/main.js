@@ -13,6 +13,12 @@ $(document).ready(function () {
         $(".menu").removeClass('menufade');
     });
 
+    // plan
+
+    $(".planb").click(function(){
+        $('.plan').fadeToggle("planhover");
+    });
+
     // accordion
 
      $('.accTitle').click(function() {

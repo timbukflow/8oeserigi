@@ -181,6 +181,15 @@ h2.title {
   left: 0px !important;
 }
 
+.menuunder {
+  background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(20,20,20,0.8) 100%);
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  width: 150px;
+  z-index: 2;
+
+}
 
 /*----------------------------------
   home
@@ -211,6 +220,9 @@ h2.title {
     background-position: bottom;
     background-size: cover;
     background-image: url("../img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-standort-seealpsee.jpg");
+}
+.modell {
+  background-image: url("../img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-modell-01.jpg");
 }
 
 .headerstandort {
@@ -307,8 +319,10 @@ figcaption {
     z-index: 1;
 }
 .gbereich {
-  width: 90%;
-  margin: 0 5%;
+  width: 82%;
+  margin: 50px 9%;
+  display: inline-block;
+
 }
 .ghaus {
   width: 16%;
@@ -316,26 +330,75 @@ figcaption {
   float: left;
 }
 
+.ghausoverall {
+  width: 16%;
+  padding: 2%;
+  margin-left: 20%;
+  float: left;
+}
+
+
 .hausimg {
   margin-right: 25px;
 }
-
-.ghaus h4 {
-  margin: 0;
-  display: inline-block;
-  padding: 5px 0;
-}
-.ghaus h4 a {
-  color: #B3A280;
-  text-decoration: none;
-  border-bottom: 1px solid;
-}
-
-.ghaus h3 {
+.ghaus h3,
+.ghausoverall h3 {
   font-size: 36px;
   margin: 0;
   display: inline-block;
   padding: 20px 0 15px;
+}
+.ghaus h4,
+.ghausoverall h4 {
+  margin: 0;
+  display: inline-block;
+  padding: 5px 0;
+  text-align: left;
+  width: 100%;
+}
+.ghaus h4 a,
+.ghausoverall h4 a {
+  color: #B3A280;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  display: inline-block;
+  width: 100%;
+  -webkit-transition: padding-left 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: padding-left 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+}
+.ghaus h4 a:hover,
+ .ghausoverall h4 a:hover{
+  padding-left: 10px;
+}
+
+
+/*-- plan --*/
+
+.plan {
+    display: none;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height:  100vh;
+    background-color: #F6F6F6;
+    cursor: pointer;
+    z-index: 10;
+}
+.plan img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.planhover {
+    display: block;
 }
 
 
