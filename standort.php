@@ -19,7 +19,7 @@
     <section class="maincontainer">
       <article>
         <h1>Standort 8 Öserigi</h1>
-        <h2>Mit einer Fläche von 17'247 Hektaren ist Appenzell Innerrhoden der zweitkleinste Kanton der Schweiz und hat mit rund 16'000 Einwohnerinnen und Einwohnern die kleinste Bevölkerung. Dafür hätten sie sich das schönste Gebiet ausgesucht, erklären die Innerrhoder mit einem Schmunzeln. Tatsächlich ist Appenzell Innerrhoden weit über die Landesgrenzen für seine malerische Berglandschaft und sein vielfältiges Brauchtum bekannt. Die Appenzeller Kultur ist eng mit der Kirche und der landwirtschaftlichen Tradition verbunden und wird bis heute im Alltag gelebt.
+        <h2>Mit einer Fläche von 17'247 Hektaren ist Appenzell Innerrhoden der zweitkleinste Kanton der Schweiz und hat mit rund 16'000 Einwohnerinnen und Einwohnern die kleinste Bevölkerung. Dafür hätten sie sich das schönste Gebiet ausgesucht, erklären die Innerrhoder mit einem Schmunzeln. Tatsächlich ist Appenzell Innerrhoden weit über die Landesgrenzen für seine malerische Berglandschaft und sein vielfältiges Brauchtum bekannt. Die Appenzeller Kultur ist eng mit der Kirche und der landwirtschaftlichen Tradition verbunden und wird bis heute im Alltag gelebt.
         <span class="copyright">Bilder © appenzell.ch</span>
         </h2>
         <figure class="imgtwo first">
@@ -38,8 +38,7 @@
 
       <article>
         <h1>Wasserauen & Schwende</h1>
-        <h2>Fünf Autominuten vom Hauptort Appenzell entfernt liegt das beschauliche Dorf Weissbad auf rund 800 Metern Höhe am Zusammenfluss von Schwendibach, Brüelbach und Wissbach. Als Zentrum des Bezirks Schwende gilt der Molkekurort Weissbad mit rund 2200 Einwohnern, idyllischen Streusiedlungen und einer Vielzahl von kleinen Betrieben als attraktiver, lebendiger Wohnraum, der in den letzten Jahren einen stetigen Zuwachs verzeichnet. Touristischer Ausgangspunkt ist das Hotel Hof Weissbad, das als grösster Arbeitgeber der Region rund 185 Mitarbeitende beschäftigt – eine Erfolgsgeschichte seit über 20 Jahren.
-        </h2>
+        <h2>Fünf Autominuten vom Hauptort Appenzell entfernt liegt das beschauliche Dorf Weissbad auf rund 800 Metern Höhe am Zusammenfluss von Schwendibach, Brüelbach und Wissbach. Als Zentrum des Bezirks Schwende gilt der Molkekurort Weissbad mit rund 2200 Einwohnern, idyllischen Streusiedlungen und einer Vielzahl von kleinen Betrieben als attraktiver, lebendiger Wohnraum, der in den letzten Jahren einen stetigen Zuwachs verzeichnet. Touristischer Ausgangspunkt ist das Hotel Hof Weissbad, das als grösster Arbeitgeber der Region rund 185 Mitarbeitende beschäftigt – eine Erfolgsgeschichte seit über 20 Jahren.</h2>
         <iframe class="map" src="https://snazzymaps.com/embed/353643" width="100%" height="600px" style="border:none;"></iframe>
         <div class="tabeltwo">
           <p><strong>Zu Fuss</strong></p>
@@ -50,33 +49,33 @@
           <p><strong>Mit dem Velo</strong></p>
           <p>15 min	<span>Sekundarschule</span></p>
           <p>15 min	<span>Lebensmittelgeschäft</span></p>
-          <p>15 min	<span>Dorf Appenzell</span></p>
+          <p>15 min	<span>Appenzell Zentrum</span></p>
         </div>
         <div class="tabeltwo">
           <p><strong>Mit dem Auto</strong></p>
+          <p>22 min	<span>Altstätten SG</span></p>
           <p>27 min	<span>St.Gallen</span></p>
-          <p>22 min	<span>Altstätten, Feldkirch</span></p>
           <p>85 min	<span>Zürich</span></p>
           <br>
           <p><strong>Mit dem Zug</strong></p>
-          <p>18 min	<span>Appenzell Zentrum</span></p>
-          <p>72 min	<span>St.Gallen</span></p>
-          <p>72 min	<span>Altstätten, Feldkirch</span></p>
+          <p>11 min	<span>Appenzell Zentrum</span></p>
+          <p>65 min	<span>St.Gallen</span></p>
+          <p>76 min	<span>Altstätten, Feldkirch</span></p>
         </div>
       </article>
 
       <article>
         <h1>Schwendetalstrasse</h1>
-        <h2>Das Grundstück von «8 Öserigi» liegt an einem leichten Westhang mit weitem Blick in die landwirtschaftlich geprägte Region vor dem malerischen Hintergrund des Alpsteins. Der gegenüberliegende Osthang ist ausschliesslich mit einzelnen Bauernhöfen bebaut. Die Wandergebiete Hoher Kasten und Säntis liegen in unmittelbarer Nähe des Grundstücks und bieten einen idealen Ausgangspunkt und beste Voraussetzungen für sportbegeisterte Naturliebhaber.
-        <span class="copyright">Bilder © appenzell.ch</span>
+        <h2>Das Grundstück von «8 Öserigi» liegt an einem leichten Westhang mit weitem Blick in die landwirtschaftlich geprägte Region vor dem malerischen Hintergrund des Alpsteins. Der gegenüberliegende Osthang ist ausschliesslich mit einzelnen Bauernhöfen bebaut. Die Wandergebiete Hoher Kasten und Säntis liegen in unmittelbarer Nähe des Grundstücks und bieten einen idealen Ausgangspunkt und beste Voraussetzungen für sportbegeisterte Naturliebhaber.
+          <span class="copyright">Bilder © appenzell.ch</span>
         </h2>
         <figure class="imgtwo first">
           <img src="img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-biken-wandern.jpg" alt="8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-biken-wandern">
-          <figcaption>Bike-Wander-Paradies<br>vor der Haustür</figcaption>
+          <figcaption>Bike- und Wander-Paradies<br>vor der Haustür</figcaption>
         </figure>
         <figure class="imgtwo second">
           <img src="img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-hotel-hof-weissbad.jpg" alt="8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-hotel-hof-weissbad">
-          <figcaption>Hof Weissbad Wellness<br>9 min zu Fuss</figcaption>
+          <figcaption>Hotel Hof Weissbad<br>9 min zu Fuss</figcaption>
         </figure>
         <figure class="imgone">
           <img src="img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-ebenalp-skigebiet.jpg" alt="8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-ebenalp-skigebiet">
@@ -85,9 +84,7 @@
       </article>
 
       <article>
-        <p>Das ruhige Wohnquartier liegt am Fusse des Bebauungsgebietes des Dorfs Weissbad. Die Gemeindekirche, Primarschule sowie der Skilift Horn sind zu Fuss bequem erreichbar. Fünf Minuten mit dem Auto entfernt, bietet das regionale und kulturelle Zentrum Appenzell eine Vielzahl von Einkaufsmöglichkeiten.
-        <br><br>
-        Dank einer guten Verkehrsanbindung an die kantonalen Strassen ist St.Gallen mit dem Auto in 27 Minuten, Oberriet und Altstätten in jeweils 22 Minuten erreichbar. Auch der öffentliche Verkehr ist mit einer direkten Anbindung an die Appenzeller Bahn sowie dem Nahverkehr mit dem Postauto gut erschlossen.</p>
+        <p>Das ruhige Wohnquartier liegt am Fusse des Bebauungsgebietes des Dorfs Weissbad. Die Gemeindekirche, Primarschule sowie der Skilift Horn sind zu Fuss bequem erreichbar. Fünf Minuten mit dem Auto entfernt, bietet das regionale und kulturelle Zentrum Appenzell eine Vielzahl von Einkaufsmöglichkeiten. Dank einer guten Verkehrsanbindung an die kantonalen Strassen ist St.Gallen mit dem Auto in 27 Minuten und Altstätten in 22 Minuten erreichbar. Auch der öffentliche Verkehr ist mit einer direkten Anbindung an die Appenzeller Bahn sowie dem Nahverkehr mit dem Postauto gut erschlossen.</p>
         <figure class="imgtwo first">
           <img src="img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-nachtskifahren-skigebiet-horn.jpg" alt="8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-nachtskifahren-skigebiet-horn">
           <figcaption>Skigebiet Horn Nachtskifahren<br>2 min mit den Ski</figcaption>
