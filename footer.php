@@ -13,9 +13,14 @@
           <br>6330 Cham
         </p>
         <p><strong>Architekt</strong>
-          <br>Art of Loft AG
-          <br>Schützengartenweg 3
-          <br>9000 St. Gallen
+          <br>
+          Hauptsitz<br>
+          Gadenstatt 4<br>
+          9050 Appenzell Meistersrüte<br>
+          <br>
+          Niederlassung <br>
+          Schützengartenweg 3 <br>
+          9000 St.Gallen<br>
         </p>
     </div>
 
@@ -24,7 +29,8 @@
 				<li><a href="index">8 Öserigi</a></li>
 				<li><a href="standort">Standort</a></li>
 				<li><a href="grundrisse-preise">Grundrisse & Preise</a></li>
-				<li><a href="baubeschreibung">Baubeschreibung</a></li>
+        <li><a href="modellbilder">Modellbilder</a></li>
+        <li><a href="baubeschreibung">Baubeschreibung</a></li>
         <li><a class="impressum" data-toggle="#impressum">Impressum</a></li>
         <li><a class="impressum" data-toggle="#datenschutz">Konditionen</a></li>
 			</ul>
