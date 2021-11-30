@@ -359,35 +359,41 @@ figcaption {
 
 .hausimg {
   margin-right: 25px;
+  -webkit-transition: opacity 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: opacity 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+
 }
-.ghaus h3,
-.ghausoverall h3 {
+.ghaus h3 {
   font-size: 36px;
   margin: 0;
   display: inline-block;
-  padding: 20px 0 15px;
+  padding: 30px 0 15px;
 }
-.ghaus h4,
-.ghausoverall h4 {
+.ghaus h4 {
   margin: 0;
   display: inline-block;
   padding: 5px 0;
   text-align: left;
   width: 100%;
+  cursor: pointer;
 }
-.ghaus h4 a,
-.ghausoverall h4 a {
+.ghaus h4 a {
   color: #B3A280;
   text-decoration: none;
   border-bottom: 1px solid;
   display: inline-block;
   width: 100%;
+  padding-bottom: 15px;
+  padding-top: 5px;
   -webkit-transition: padding-left 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: padding-left 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-
 }
-.ghaus h4 a:hover,
- .ghausoverall h4 a:hover{
+.ghaus h4 a img {
+  padding-bottom: 3px;
+  margin-right: 5px;
+}
+
+.ghaus h4 a:hover{
   padding-left: 10px;
 }
 
@@ -401,7 +407,7 @@ figcaption {
     right: 0px;
     width: 100%;
     height:  100vh;
-    background-color: #F6F6F6;
+    background-color: #141414;
     cursor: pointer;
     z-index: 10;
 }
@@ -410,14 +416,19 @@ figcaption {
     margin: auto;
     top: 0;
     bottom: 0;
-    left: 0;
-    right: 0;
-    max-width: 100%;
-    background-color: #141414;
+    left: 2%;
+    right: 2%;
+    width: 96%;
 }
 
 .planhover {
     display: block;
+}
+
+.planfade {
+  opacity: 0.25;
+  -webkit-transition: opacity 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: opacity 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 
@@ -475,7 +486,7 @@ figcaption {
 
 .accordion img {
   float: right;
-  width: 20px;
+  width: 25px;
   margin-top: 10px;
   -webkit-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;

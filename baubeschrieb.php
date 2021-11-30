@@ -379,7 +379,7 @@
       </div>
       <div class="accordion">
           <h3>
-            <a href="downloads/8-oeserigi-baubeschrieb.pdf" download="8-oeserigi-baubeschrieb">
+            <a href="downloads/8-oeserigi-baubeschrieb.pdf" target="_blank">
               <img src="img/download-icon.svg" width="25" height="25" alt="download icon">
               8 Öserigi Baubeschrieb (PDF)
             </a>

@@ -19,6 +19,10 @@ $(document).ready(function () {
         $('.plan').fadeToggle("planhover");
     });
 
+    $(".planb").hover(function() {
+       $('.hausimg').toggleClass('planfade');
+   });
+
     // accordion
 
      $('.accTitle').click(function() {
