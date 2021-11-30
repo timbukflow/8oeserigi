@@ -1,6 +1,5 @@
 <div id="optoutbanner99">
-    <p>Wir verwenden Cookies für ein besseres Online-Erlebnis. </p>
-    <a id="acceptga" onclick="accept()">akzeptieren</a>
+    <a id="acceptga" onclick="accept()">Wir verwenden Cookies für ein besseres Online-Erlebnis. Akzeptieren.</a>
 </div>
 
 <script src="js/vendor/modernizr-3.6.0.min.js"></script>
@@ -10,7 +9,7 @@
 <script src="js/main.js"></script>
 
 <script>
-    var gaProperty = '###############';
+    var gaProperty = 'UA-142487628-8';
     var disableStr = 'ga-disable-' + gaProperty;
     if (document.cookie.indexOf(disableStr + '=true') > -1) {
         window[disableStr] = true;
@@ -31,7 +30,7 @@
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-ga('create', '###############', 'auto');
+ga('create', 'UA-142487628-8', 'auto');
 ga('set', 'anonymizeIp', true);
 ga('send', 'pageview');
 </script>
