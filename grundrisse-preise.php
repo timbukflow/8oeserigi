@@ -80,7 +80,7 @@
       </article>
     </section>
     <div class="plan planb">
-        <img src="img/8-oeserigi-grundriss-uebersicht-plan.svg" alt="">
+        <img src="img/8-oeserigi-grundriss-uebersicht-plan.jpg" alt="">
     </div>
 
     <?php include 'footer.php'; ?>
