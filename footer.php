@@ -30,7 +30,7 @@
 				<li><a href="standort">Standort</a></li>
 				<li><a href="grundrisse-preise">Grundrisse & Preise</a></li>
         <li><a href="modellbilder">Modellbilder</a></li>
-        <li><a href="baubeschreibung">Baubeschreibung</a></li>
+        <li><a href="baubeschrieb">Baubeschrieb</a></li>
         <li><a class="impressum" data-toggle="#impressum">Impressum</a></li>
         <li><a class="impressum" data-toggle="#datenschutz">Konditionen</a></li>
 			</ul>

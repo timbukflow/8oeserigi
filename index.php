@@ -25,10 +25,10 @@
       </article>
       <article>
         <div class="tabeltwo">
+          <p>Überbauung<span>8 Öserigi</span></p>
           <p>Kanton	<span>Appenzell Innerrhoden</span></p>
           <p>Ort	<span>Schwende, Weissbad</span></p>
           <p>Strasse	<span>Schwendetalstrasse</span></p>
-          <br>
           <p>Beurkundung	<span>Dezember 2021</span></p>
           <p>Baubeginn	<span>Frühling 2022</span></p>
           <p>Erstbezug	<span>Herbst 2023</span></p>
@@ -40,7 +40,7 @@
           <p>Tiefgaragen	<span>2</span></p>
           <p>Parkplätze Auto	<span>103</span></p>
           <p>Parkplätze Motorrad	<span>11</span></p>
-          <p>Hobbyräume	<span>9</span></p>
+          <p>Hobbyräume	<span>6</span></p>
         </div>
         <figure class="imgone">
           <img src="img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-innenvisualisierung-erdgeschoss.jpg" alt="8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-innenvisualisierung-erdgeschoss">
@@ -71,10 +71,7 @@
         <br><br>
         Die Erschliessung erfolgt grundsätzlich über die Tiefgaragen, über welche das Erreichen der einzelnen Wohnungen mit dem Aufzug bequem und schwellenlos gewährleistet ist. Die internen Grundrissstrukturen der einzelnen Wohnungen sind flexibel und können den zukünftigen Eigentümern die grösstmöglich gewünschte Struktur anbieten.</p>
         <a class="button" href="grundrisse-preise">Grundrisse & Preise</a>
-
       </article>
-
-
 
     </section>
 

@@ -39,7 +39,7 @@
       <article>
         <h1>Wasserauen & Schwende</h1>
         <h2>Fünf Autominuten vom Hauptort Appenzell entfernt liegt das beschauliche Dorf Weissbad auf rund 800 Metern Höhe am Zusammenfluss von Schwendibach, Brüelbach und Wissbach. Als Zentrum des Bezirks Schwende gilt der Molkekurort Weissbad mit rund 2200 Einwohnern, idyllischen Streusiedlungen und einer Vielzahl von kleinen Betrieben als attraktiver, lebendiger Wohnraum, der in den letzten Jahren einen stetigen Zuwachs verzeichnet. Touristischer Ausgangspunkt ist das Hotel Hof Weissbad, das als grösster Arbeitgeber der Region rund 185 Mitarbeitende beschäftigt – eine Erfolgsgeschichte seit über 20 Jahren.</h2>
-        <iframe class="map" src="https://snazzymaps.com/embed/353643" width="100%" height="600px" style="border:none;"></iframe>
+        <iframe class="map" src="https://snazzymaps.com/embed/353643" width="100%" height="800px" style="border:none;"></iframe>
         <div class="tabeltwo">
           <p><strong>Zu Fuss</strong></p>
           <p>6 min	<span>Kindergarten</span></p>

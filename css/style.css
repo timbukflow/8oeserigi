@@ -26,13 +26,15 @@ h1, h3,
 .menunav,
 .navline li a,
 figcaption,
-.button {
+.button,
+.accordion h3,
+.accordion h3 a {
   color: #B3A280;
   font-family: 'Tinos', serif;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 60px;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.06em;
   text-decoration: none;
   text-rendering: optimizeLegibility;
@@ -47,6 +49,7 @@ figcaption,
 
 figcaption {
   font-size: 20px;
+  margin: 0;
   font-style: italic;
   color: #fff;
   text-align: left;
@@ -56,11 +59,9 @@ figcaption {
 }
 .button {
   font-size: 25px;
-  display: block;
-  width: 35%;
   border: 1px solid;
-  margin: 0 auto;
-  padding: 10px;
+  margin: 0 10%;
+  padding: 20px;
   -webkit-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -70,24 +71,37 @@ figcaption {
 }
 
 h2, h4, p,
-.navkontakt a {
-  margin: 15px 10% 100px;
+.navkontakt a,
+.accordion li {
   color: #333;
   font-family: 'Arimo', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.4;
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.75px;
   hyphens: auto;
   -webkit-hyphens: auto;
   text-decoration: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  width: 80%;
+  margin: 15px 10% 20px;
+}
+
+h2, p {
+  width: 80%;
+  margin: 15px 10% 100px;
 }
 
 h2.title {
   font-weight: 600;
   letter-spacing: 0.5px;
-  margin: 0 15% 50px;
+  margin: 15px 10% 40px;
 }
 
 .copyright {
@@ -100,6 +114,7 @@ h2.title {
   text-align: left;
   position: relative;
   margin: 15px;
+  width: 95%;
   border-bottom: 1px solid #333;
 }
 .tabeltwo p span {
@@ -134,7 +149,7 @@ h2.title {
   height: 100vh;
   top: 0;
   right: -500px;
-  background-color: #333;
+  background-color: #2f2f2f;
   -webkit-transition: right 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: right 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -144,7 +159,7 @@ h2.title {
 }
 
 .navcontainer ul {
-  margin-top: 35vh;
+  margin-top: 30vh;
   margin-left: 25px;
 }
 
@@ -229,6 +244,7 @@ h2.title {
   position: fixed;
   margin: 0 auto;
   width: 100%;
+  text-align: center;
   margin-top: 45vh;
   color: #fff;
   z-index: 2;
@@ -310,10 +326,13 @@ figcaption {
 /*----------------------------------
     grundrisse
 -----------------------------------*/
+
 .gcontainer {
     width: 100%;
     position: relative;
     margin: 0 auto;
+    padding-top: 80px;
+    padding-left: 5px;
     background-color: #333;
     display: inline-block;
     z-index: 1;
@@ -405,56 +424,41 @@ figcaption {
 /*----------------------------------
     accordion
 -----------------------------------*/
-.baubeschreibung, .kontaktcontainer {
-  margin-top: 250px;
-  margin-bottom: 60px;
-}
-
-.header.bau {
-  padding-left: 10px;
-  position: relative;
-  margin: 0px 10% 80px 10%;
-}
 
 .accordioncontainer {
   display: inline-block;
   width: 100%;
 }
 
-.accordioncontainer h2 {
-  margin-left: 10%;
-  padding: 15px;
-  width: 80%;
-}
-
 .accordion {
   box-sizing: border-box;
   margin-left: 10%;
-  padding: 0 10px;
-  width: 40%;
+  margin-right: 2%;
+  width: 38%;
   float: left;
   position: relative;
-  margin-bottom: 160px;
+  margin-bottom: 60px;
   cursor: pointer;
 }
 
 .accordion.right {
-  margin-left: 0;
+  margin-left: 2%;
   margin-right: 10%;
 }
 
 .accordion h3 {
-  font-size: 22px;
   margin: 0;
-  padding: 15px 5px;
-  border-bottom: 1px solid #223870;
-  color: #223870;
+  font-size: 25px;
+  padding: 12px 0px;
+  border-bottom: 1px solid #B3A280;
   vertical-align: middle;
 }
 
-.accordion.highlights h3 {
-  border-bottom: 1px solid #fff;
-  color: #fff;
+.accordion h3  a {
+  margin: 0;
+  font-size: 25px;
+  padding: 12px 0px;
+  vertical-align: middle;
 }
 
 .accordion ul {
@@ -462,23 +466,17 @@ figcaption {
 }
 
 .accordion li {
-  border-bottom: 1px solid rgba(22,38,70, 0.25);
   text-decoration: none;
   list-style: none;
-  padding: 5px;
-  color: #223870;
+  padding: 10px 5px;
+  color: #B3A280;
   margin: 0;
-}
-
-.accordion.highlights li {
-  border-bottom: none;
-  color: #fff;
 }
 
 .accordion img {
   float: right;
   width: 20px;
-  margin-top: 5px;
+  margin-top: 10px;
   -webkit-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
 }
