@@ -15,10 +15,12 @@
         <p><strong>Architekt</strong>
           <br>
           Hauptsitz<br>
+          Art of Loft AG<br>
           Gadenstatt 4<br>
           9050 Appenzell Meistersrüte<br>
           <br>
           Niederlassung <br>
+          Art of Loft AG<br>
           Schützengartenweg 3 <br>
           9000 St.Gallen<br>
         </p>

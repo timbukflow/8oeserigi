@@ -20,7 +20,7 @@
         <h2>Nach mehrjähriger Planung steht das Projekt nun vor der Ausführung. Gebaut werden 8 Mehrfamilienhäuser mit total 47 Wohneinheiten, 7061 m<sup>2</sup> Geschossfläche und 103 Parkplätzen, verteilt auf 2 Tiefgaragen. Geplanter Baubeginn ist Frühling 2022. Gebaut wird in Etappen, damit regionale Handwerker berücksichtigt werden können. Die ersten Häuser werden im Herbst 2023 bezugsbereit sein. Verkauft werden schlüsselfertige Wohnungen.</h2>
         <figure class="imgone">
           <img src="img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-aussenvisualisierung-01.jpg" alt="8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-aussenvisualisierung-01">
-          <figcaption>Aussenvisualisierung <br> Bereich A</figcaption>
+          <figcaption>Aussenvisualisierung - Bereich A</figcaption>
         </figure>
       </article>
       <article>
