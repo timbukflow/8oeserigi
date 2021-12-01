@@ -84,7 +84,10 @@
       </article>
 
       <article>
-        <p>Das ruhige Wohnquartier liegt am Fusse des Bebauungsgebietes des Dorfs Weissbad. Die Gemeindekirche, Primarschule sowie der Skilift Horn sind zu Fuss bequem erreichbar. Fünf Minuten mit dem Auto entfernt, bietet das regionale und kulturelle Zentrum Appenzell eine Vielzahl von Einkaufsmöglichkeiten. Dank einer guten Verkehrsanbindung an die kantonalen Strassen ist St.Gallen mit dem Auto in 27 Minuten und Altstätten in 22 Minuten erreichbar. Auch der öffentliche Verkehr ist mit einer direkten Anbindung an die Appenzeller Bahn sowie dem Nahverkehr mit dem Postauto gut erschlossen.</p>
+        <p>Das ruhige Wohnquartier liegt am Fusse des Bebauungsgebietes des Dorfs Weissbad. Die Gemeindekirche, Primarschule sowie der Skilift Horn sind zu Fuss bequem erreichbar. Fünf Minuten mit dem Auto entfernt, bietet das regionale und kulturelle Zentrum Appenzell eine Vielzahl von Einkaufsmöglichkeiten. Dank einer guten Verkehrsanbindung an die kantonalen Strassen ist St.Gallen mit dem Auto in 27 Minuten und Altstätten in 22 Minuten erreichbar. Auch der öffentliche Verkehr ist mit einer direkten Anbindung an die Appenzeller Bahn sowie dem Nahverkehr mit dem Postauto gut erschlossen.
+          <span class="copyright">Bilder © appenzell.ch</span>
+        </p>
+
         <figure class="imgtwo first">
           <img src="img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-nachtskifahren-skigebiet-horn.jpg" alt="8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-nachtskifahren-skigebiet-horn">
           <figcaption>Skigebiet Horn Nachtskifahren<br>5 min zu Fuss</figcaption>

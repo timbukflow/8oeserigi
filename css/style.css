@@ -685,6 +685,7 @@ h1, h2,p {width: 75%; margin-left: 10%; margin-right: 15%;}
 .gbereich {width: 75%; margin-left: 10%; margin-right: 15%}
 .gbereich:nth-of-type(2n) {margin-top: 0;}
 article {margin-bottom: 50px;}
+.menuunder {width: 80px;}
 }
 
 @media only screen and (max-width: 480px) {
