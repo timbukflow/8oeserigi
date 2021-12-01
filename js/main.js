@@ -19,7 +19,7 @@ $(document).ready(function () {
         $('.plan').fadeToggle("planhover");
     });
 
-    $(".planb").hover(function() {
+    $(".phfade").hover(function() {
        $('.hausimg').toggleClass('planfade');
     });
 
