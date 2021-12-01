@@ -7,6 +7,7 @@ $(document).ready(function () {
     $(".menu").click(function(){
         $(".navcontainer").toggleClass('menufade');
         $("li").toggleClass('menulifade');
+        $("body").toggleClass('navscroll');
     });
 
     $(".menu").mouseleave(function(){

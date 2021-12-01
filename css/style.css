@@ -686,6 +686,7 @@ h1, h2,p {width: 75%; margin-left: 10%; margin-right: 15%;}
 .gbereich:nth-of-type(2n) {margin-top: 0;}
 article {margin-bottom: 50px;}
 .menuunder {width: 80px;}
+.navscroll {height: 100vh; overflow: hidden;}
 }
 
 @media only screen and (max-width: 480px) {
