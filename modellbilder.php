@@ -17,7 +17,6 @@
     </section>
     <section class="maincontainer">
       <article>
-        <h1>8 Öserigi Modell</h1>
         <figure class="imgtwo first">
           <img src="img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-modell-08.jpg" alt="8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-modell-02">
           <figcaption>8 Öserigi - Bereich A</figcaption>

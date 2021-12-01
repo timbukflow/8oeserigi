@@ -20,6 +20,7 @@
 body {
     margin:0px;
     padding: 0px;
+    background-color: #B3A280;
 }
 
 h1, h3,
@@ -275,6 +276,7 @@ article {
 
 figure {
   position: relative;
+  display: inline-block;
 }
 
 figure.imgone img {
@@ -305,7 +307,7 @@ figcaption {
   background-color: #B3A280;
   width: 30%;
   z-index: 1;
-  bottom: -20px;
+  top: -20px;
   left: 50px;
 }
 .imgtwo figcaption {
@@ -633,11 +635,11 @@ responsive
 .hausimg{margin-right: 30%;}
 .gbereich {margin-bottom: 0px;}
 .gbereich:nth-of-type(2n) {margin-top: 0;}
+h1 {font-size: 50px;}
+h2, p, figcaption, .navkontakt a, h4, .accordion li {font-size: 18px;}
 }
 
 @media only screen and (max-width: 1024px) {
-h1 {font-size: 50px;}
-h2, p, figcaption, .navkontakt a, h4, .accordion li {font-size: 18px;}
 .button, .accordion h3, .accordion h3 a {font-size: 20px;}
 .navline li a, .ghaus h3 {font-size: 30px;}
 .map {height: 500px;}
@@ -648,6 +650,9 @@ figcaption {left: 30px; padding: 10px; width: 40%}
 
 @media only screen and (max-width: 870px) {
 .menunav {font-size: 18px;}
+.logo {margin: 10% 20%;}
+.navkontakt {position: relative; bottom: auto;}
+.navcontainer ul {margin-bottom: 150px; margin-top: 15vh}
 h1 {font-size: 40px;}
 h2, p, figcaption, .navkontakt a, h4, .accordion li {font-size: 16px;}
 .tabeltwo {width: 100%;}
@@ -658,6 +663,7 @@ figure.imgtwo.first, figure.imgtwo.second {width: 100%; margin-right: 0; margin-
 .accordion, .accordion.right {width: 75%; margin-right: 15%; margin-left: 10%;}
 .accordion:first-of-type {margin-bottom: 0px;}
 .accordion:nth-of-type(2n) {margin-top: 0px;}
+
 }
 
 @media only screen and (max-width: 650px) {
@@ -669,16 +675,27 @@ h1 {font-size: 35px;}
 h2, p, figcaption, .navkontakt a, h4, .accordion li {font-size: 15px;}
 h2, p {margin-bottom: 70px;}
 h1, h2,p {width: 75%; margin-left: 10%; margin-right: 15%;}
-.tabeltwo {margin-left: 10%; margin-right: 10%; width: 80%; margin-bottom: 50px;}
+.tabeltwo {margin-left: 10%; margin-right: 15%; width: 75%; margin-bottom: 80px;}
 .footerleft, .footerright {width: 100%;}
+.footerleft p {width: 100%;}
 .footerright ul {padding-left: 0; margin-top: 50px;}
 .gcontainer {padding-top: 30px;}
 .ghaus {width: 100%; padding: 0; padding-bottom: 80px; }
 .hausimg{margin-right: 50%;}
 .gbereich {width: 75%; margin-left: 10%; margin-right: 15%}
 .gbereich:nth-of-type(2n) {margin-top: 0;}
+article {margin-bottom: 50px;}
 }
 
-@media only screen and (max-width: 350px) {
-
+@media only screen and (max-width: 480px) {
+h1 {font-size: 30px; line-height: 1.15;}
+.menunav {right: -10px; top:45px;}
+.navcontainer ul, .navkontakt a {padding-left: 10px;}
+.logo {margin: 23vh 10%; width: 80%;}
+.start{height: 70vh;}
+figcaption, .imgtwo figcaption {width: 75%;}
+.imgfull {min-height: 70vh;}
+.accordion, .accordion.right {width: 80%; margin-right: 15%; margin-left: 5%;}
+.accordion h3, .accordion h3 a {font-size: 17px; padding: 10px 0;}
+.accordion img {width: 15px; margin-top: 0px;}
 }

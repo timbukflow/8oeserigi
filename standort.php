@@ -11,7 +11,7 @@
 <body>
     <?php include 'header.php'; ?>
     <section class="start">
-      <h1 class="headerstandort">Appenzell Innerrhoden</h1>
+      <!--<h1 class="headerstandort">Appenzell Innerrhoden</h1>-->
       <div class="imgfull"></div>
       <div class="menuunder"></div>
       <img class="bergprofil" src="img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-profil.svg" alt="8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-profil">
