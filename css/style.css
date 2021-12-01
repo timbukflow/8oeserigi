@@ -690,7 +690,10 @@ article {margin-bottom: 50px;}
 @media only screen and (max-width: 480px) {
 h1 {font-size: 30px; line-height: 1.15;}
 .menunav {right: -10px; top:45px;}
+.navcontainer {width: 100%; right: -480px;}
+.menufade {right: 0;}
 .navcontainer ul, .navkontakt a {padding-left: 10px;}
+.navcontainer ul {margin-bottom: 100px;}
 .logo {margin: 23vh 10%; width: 80%;}
 .start{height: 70vh;}
 figcaption, .imgtwo figcaption {width: 75%;}

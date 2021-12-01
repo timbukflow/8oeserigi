@@ -60,7 +60,7 @@
           <p><strong>Mit dem Zug</strong></p>
           <p>11 min	<span>Appenzell Zentrum</span></p>
           <p>65 min	<span>St.Gallen</span></p>
-          <p>76 min	<span>Altstätten, Feldkirch</span></p>
+          <p>76 min	<span>Altstätten SG</span></p>
         </div>
       </article>
 
