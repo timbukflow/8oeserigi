@@ -21,7 +21,7 @@ $(document).ready(function () {
 
     $(".planb").hover(function() {
        $('.hausimg').toggleClass('planfade');
-   });
+    });
 
     // accordion
 
