@@ -11,7 +11,7 @@
 <body>
     <?php include 'header.php'; ?>
     <section class="gcontainer">
-      <h1>Baubeschrieb</h1>
+      <h1 class="respfix">Baubeschrieb</h1>
       <div class="accordioncontainer">
         <article class="accordion ">
           <h3 class="accTitle">Hinweis<img class="accCross" src="img/cross.svg" alt="cross" width="25" height="25"></h3>
