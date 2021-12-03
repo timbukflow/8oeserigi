@@ -19,29 +19,29 @@
       <article>
         <figure class="imgtwo first">
           <img src="img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-modell-08.jpg" alt="8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-modell-02">
-          <figcaption>8 Öserigi - Bereich A</figcaption>
+          <figcaption class="visus">8 Öserigi - Bereich A</figcaption>
         </figure>
         <figure class="imgtwo second">
           <img src="img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-modell-09.jpg" alt="8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-modell-02">
-          <figcaption>8 Öserigi - Bereich A</figcaption>
+          <figcaption class="visus">8 Öserigi - Bereich A</figcaption>
         </figure>
         <figure class="imgone">
           <img src="img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-modell-07.jpg" alt="8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-modell-02">
-          <figcaption>8 Öserigi - Bereich A</figcaption>
+          <figcaption class="visus">8 Öserigi - Bereich A</figcaption>
         </figure>
       </article>
       <article>
         <figure class="imgtwo first">
           <img src="img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-modell-02.jpg" alt="8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-modell-02">
-          <figcaption>8 Öserigi - Bereich A</figcaption>
+          <figcaption class="visus">8 Öserigi - Bereich A</figcaption>
         </figure>
         <figure class="imgtwo second">
           <img src="img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-modell-03.jpg" alt="8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-modell-02">
-          <figcaption>8 Öserigi - Bereich B</figcaption>
+          <figcaption class="visus">8 Öserigi - Bereich B</figcaption>
         </figure>
         <figure class="imgone">
           <img src="img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-modell-04.jpg" alt="8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-modell-02">
-          <figcaption>8 Öserigi - Bereich B</figcaption>
+          <figcaption class="visus">8 Öserigi - Bereich B</figcaption>
         </figure>
       </article>
     </section>

@@ -20,7 +20,7 @@
         <h2>Nach mehrjähriger Planung steht das Projekt nun vor der Ausführung. Gebaut werden 8 Mehrfamilienhäuser mit total 47 Wohneinheiten, 7061 m<sup>2</sup> Geschossfläche und 103 Parkplätzen, verteilt auf 2 Tiefgaragen. Geplanter Baubeginn ist Frühling 2022. Gebaut wird in Etappen, damit regionale Handwerker berücksichtigt werden können. Die ersten Häuser werden im Herbst 2023 bezugsbereit sein. Verkauft werden schlüsselfertige Wohnungen.</h2>
         <figure class="imgone">
           <img src="img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-aussenvisualisierung-01.jpg" alt="8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-aussenvisualisierung-01">
-          <figcaption>Aussenvisualisierung - Bereich A</figcaption>
+          <figcaption class="visus">Aussenvisualisierung - Bereich A</figcaption>
         </figure>
       </article>
       <article>
@@ -44,7 +44,7 @@
         </div>
         <figure class="imgone">
           <img src="img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-innenvisualisierung-erdgeschoss.jpg" alt="8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-innenvisualisierung-erdgeschoss">
-          <figcaption>8 Öserigi - Erdgeschoss</figcaption>
+          <figcaption class="visus">8 Öserigi - Erdgeschoss</figcaption>
         </figure>
       </article>
 
@@ -55,15 +55,15 @@
         Wahlweise könnten die zwei bis dreigeschossigen Gebäude als einzelne Wohnungen, als Grosswohnungen über das gesamte Dachgeschoss, oder als Maisonette-Wohnung geplant werden. Die gewählten Materialien im Fassadenbereich, vorgehängte Holzfassaden, unterstreichen die Leichtigkeit der Gebäude und werden dem Siedlungsstandort gerecht.</p>
         <figure class="imgtwo first">
           <img src="img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-innenvisualisierung-dachgeschoss.jpg" alt="8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-innenvisualisierung-dachgeschoss">
-          <figcaption>8 Öserigi - Dachgeschoss</figcaption>
+          <figcaption class="visus">8 Öserigi - Dachgeschoss</figcaption>
         </figure>
         <figure class="imgtwo second">
           <img src="img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-innenvisualisierung-nasszelle.jpg" alt="8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-innenvisualisierung-nasszelle">
-          <figcaption>8 Öserigi - Nasszelle</figcaption>
+          <figcaption class="visus">8 Öserigi - Nasszelle</figcaption>
         </figure>
         <figure class="imgone">
           <img src="img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-innenvisualisierung-dachgeschoss-nacht.jpg" alt="8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-innenvisualisierung-dachgeschoss-nacht">
-          <figcaption>8 Öserigi - Dachgeschoss</figcaption>
+          <figcaption class="visus">8 Öserigi - Dachgeschoss</figcaption>
         </figure>
       </article>
       <article>

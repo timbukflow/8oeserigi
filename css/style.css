@@ -314,6 +314,11 @@ figcaption {
   width: 50%;
 }
 
+figcaption.visus {
+  bottom: -20px;
+  top: auto;
+}
+
 .tabeltwo {
   width: 50%;
   float:left;
