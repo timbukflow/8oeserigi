@@ -29,7 +29,7 @@
           <p>Kanton	<span>Appenzell Innerrhoden</span></p>
           <p>Ort	<span>Schwende, Weissbad</span></p>
           <p>Strasse	<span>Schwendetalstrasse</span></p>
-          <p>Beurkundung	<span>Dezember 2021</span></p>
+          <p>Beurkundung	<span>ab Frühjahr 2022</span></p>
           <p>Baubeginn	<span>Frühling 2022</span></p>
           <p>Erstbezug	<span>Herbst 2023</span></p>
         </div>
