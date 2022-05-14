@@ -509,6 +509,26 @@ figcaption.visus {
 }
 
 /*----------------------------------
+    webcam
+-----------------------------------*/
+.webcamcontainer {
+  width: 80%;
+  padding: 15px 10% 20px;
+  background-color: #333333;
+}
+.webcamcontainer h1 {
+  margin: 15px 0 20px;
+}
+.webcamcontainer h2 {
+  margin: 30px 0 20px;
+  color: #B3A280;
+}
+
+.branding-container{
+    display: none;
+}
+
+/*----------------------------------
     footer
 -----------------------------------*/
 
