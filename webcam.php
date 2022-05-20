@@ -13,13 +13,25 @@
     <section class="webcamcontainer">
       <h1>Webcam</h1>
       <h2>Bereich A - Live <span id="current_date_A"></span> </h2>
-      <yellow-feed token="D7N6319QD"></yellow-feed>
+      <!--<yellow-feed token="D7N6319QD"></yellow-feed>-->
+      <div class="resp-container">
+        <iframe class="resp-iframe" src="//api.yellow.camera/feed/D7N6319QD" width="1280" height="854"></iframe>
+      </div>
       <h2>Bereich A - Zeitraffer</h2>
-      <yellow-feed token="U06FW8QCH"></yellow-feed>
+      <!--<yellow-feed token="U06FW8QCH"></yellow-feed>-->
+      <div class="resp-container">
+        <iframe class="resp-iframe" src="//api.yellow.camera/feed/U06FW8QCH" width="1280" height="854"></iframe>
+      </div>
       <h2>Bereich B - Live <span id="current_date_B"></span> </h2>
-      <yellow-feed token="COE0564WF"></yellow-feed>
+      <!--<yellow-feed token="COE0564WF"></yellow-feed>-->
+      <div class="resp-container">
+        <iframe class="resp-iframe" src="//api.yellow.camera/feed/COE0564WF" width="1280" height="854"></iframe>
+      </div>
       <h2>Bereich B - Zeitraffer</h2>
-      <yellow-feed token="WFOR1UT74"></yellow-feed>
+      <!--<yellow-feed token="WFOR1UT74"></yellow-feed>-->
+      <div class="resp-container">
+        <iframe class="resp-iframe" src="//api.yellow.camera/feed/WFOR1UT74" width="1280" height="854"></iframe>
+      </div>
     </section>
 
     <script src="https://feed.yellow.webcam/js/yellow-feedplugin.js"></script>
