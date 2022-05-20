@@ -34,7 +34,7 @@
       </div>
     </section>
 
-    <script src="https://feed.yellow.webcam/js/yellow-feedplugin.js"></script>
+    <!--<script src="https://feed.yellow.webcam/js/yellow-feedplugin.js"></script>-->
     <script>
       date = new Date();
       year = date.getFullYear();
