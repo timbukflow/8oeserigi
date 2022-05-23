@@ -536,11 +536,11 @@ figcaption.visus {
     height: 100%;
     border: 0;
 }
-/*
-.branding-container{
-    display: none;
+
+.media-container video {
+margin: 0;
 }
-*/
+
 
 /*----------------------------------
     footer
