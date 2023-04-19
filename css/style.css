@@ -788,4 +788,7 @@ figcaption, .imgtwo figcaption {width: 75%;}
 .respfix {margin-left: 5%;}
 .accordion h3, .accordion h3 a {font-size: 17px; padding: 10px 0;}
 .accordion img {width: 15px; margin-top: 0px;}
+#banner h1 {
+  font-size: 25px;
+}
 }
