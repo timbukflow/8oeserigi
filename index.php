@@ -72,8 +72,17 @@
         Die Erschliessung erfolgt grundsätzlich über die Tiefgaragen, über welche das Erreichen der einzelnen Wohnungen mit dem Aufzug bequem und schwellenlos gewährleistet ist. Die internen Grundrissstrukturen der einzelnen Wohnungen sind flexibel und können den zukünftigen Eigentümern die grösstmöglich gewünschte Struktur anbieten.</p>
         <a class="button" href="grundrisse-preise">Grundrisse & Preise</a>
       </article>
-
     </section>
+
+    <div id="banner">
+      <h1><span>Die letzten freien Wohnungen der Extraklasse warten auf Sie </span>– Sichern Sie sich Ihr exklusives Traumheim.</h1>
+      <p>
+          Florian Meier
+          <br><a href="tel:0791979971">T +41 (0)79 197 99 71</a>
+          <br><a href="mailto:florian@meierpartnerimmobilien.ch?subject=8%20Öserigi%20Appenzell%20Innerrhoden" target="_top">florian@meierpartnerimmobilien.ch</a>
+      </p>
+      <button id="closeButton">Guet</button>
+    </div>
 
     <?php include 'footer.php'; ?>
     <?php include 'script.php'; ?>
