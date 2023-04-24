@@ -75,7 +75,7 @@
     </section>
 
     <div id="banner">
-      <h1><span>Die letzten freien Wohnungen der Extraklasse warten auf Sie </span>– Sichern Sie sich Ihr exklusives Traumheim.</h1>
+      <h1>Die <span>letzten freien </span> Wohnungen der Extraklasse warten auf Sie – Sichern Sie sich Ihr exklusives Traumheim.</h1>
       <p>
           Florian Meier
           <br><a href="tel:0791979971">T +41 (0)79 197 99 71</a>

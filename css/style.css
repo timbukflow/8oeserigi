@@ -432,7 +432,7 @@ figcaption.visus {
   width: 100%;
   cursor: pointer;
 }
-.ghaus h4 a {
+.ghaus h4 a, .verkaufstatus {
   color: #B3A280;
   text-decoration: none;
   border-bottom: 1px solid;
@@ -443,7 +443,18 @@ figcaption.visus {
   -webkit-transition: padding-left 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: padding-left 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-.ghaus h4 a img {
+
+.ghaus h4.verkaufstatus {
+  margin-top: 10px;
+  font-size: 15px;
+  border-bottom: none;
+}
+
+.verkauft {
+  opacity: 0.5;
+}
+
+.ghaus h4 a img, .verkaufstatus img {
   padding-bottom: 3px;
   margin-right: 5px;
 }
@@ -788,7 +799,5 @@ figcaption, .imgtwo figcaption {width: 75%;}
 .respfix {margin-left: 5%;}
 .accordion h3, .accordion h3 a {font-size: 17px; padding: 10px 0;}
 .accordion img {width: 15px; margin-top: 0px;}
-#banner h1 {
-  font-size: 25px;
-}
+#banner h1 {font-size: 25px;}
 }
