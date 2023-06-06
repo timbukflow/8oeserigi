@@ -43,7 +43,7 @@
   <div id="impressum">
       <p><strong>Design &#38; Code:</strong>
         <br>Schwizer Design GmbH
-        <br>Gallusstrasse 43<br>
+        <br>Gallusstrasse 43
         <br>9000 St. Gallen
         <br>
         <a href="https://schwizerdesign.ch/" target="_top">www.schwizerdesign.ch</a>
