@@ -41,14 +41,14 @@
   </div>
 
   <div id="impressum">
-      <p><strong>Design &#38; Interaction:</strong>
-        <br>Schwizer &#38; Schlatter GmbH
-        <br>Davidstrasse 45
-        <br>9000 St.Gallen
+      <p><strong>Design &#38; Code:</strong>
+        <br>Schwizer Design GmbH
+        <br>Gallusstrasse 43<br>
+        <br>9000 St. Gallen
         <br>
-        <a href="https://www.schwizerschlatter.com" target="_blank">schwizerschlatter.com</a>
+        <a href="https://schwizerdesign.ch/" target="_top">www.schwizerdesign.ch</a>
       </p>
-      <p class="disclaimer">© 2021 8 Öserigi | Appenzell Innerrhoden. All rights reserved</p>
+      <p class="disclaimer">© 2023 8 Öserigi | Appenzell Innerrhoden. All rights reserved</p>
   </div>
   <div id="datenschutz">
       <p>
