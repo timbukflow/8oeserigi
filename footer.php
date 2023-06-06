@@ -43,9 +43,7 @@
   <div id="impressum">
       <p><strong>Design &#38; Code:</strong>
         <br>Schwizer Design GmbH
-        <br>Gallusstrasse 43
-        <br>9000 St. Gallen
-        <br>
+        <br><a href="https://goo.gl/maps/bBmLDGMJSYqbwbmj8">Gallusstrasse 43, 9000 St. Gallen</a><br>
         <a href="https://schwizerdesign.ch/" target="_top">www.schwizerdesign.ch</a>
       </p>
       <p class="disclaimer">© 2023 8 Öserigi | Appenzell Innerrhoden. All rights reserved</p>
