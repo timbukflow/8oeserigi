@@ -38,7 +38,7 @@
           <h4><a href="downloads/8-oeserigi-grundrisse-a3.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Grundrisse A3</a></h4>
           <h4><a href="downloads/8-oeserigi-preise-a3.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Preise A3</a></h4>
           <h4><a href="downloads/8-oeserigi-dossier-a3.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Dossier A3</a></h4>
-          <h4 class="verkaufstatus"> 1 Wohnungen verfügbar</h4>
+          <h4 class="verkaufstatus"> 1 Wohnung verfügbar</h4>
         </div>
         <div class="ghaus">
           <img class="hausimg" src="img/8-oeserigi-grundriss-haus-a-4.svg" alt="8-oeserigi-grundriss-haus-a-4">
