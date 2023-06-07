@@ -75,13 +75,17 @@
     </section>
 
     <div id="banner">
+      <button id="closeButton"><span class="iconx">&#x2715;</span></button>
       <h1>Die <span>letzten freien </span> Wohnungen der Extraklasse warten auf Sie – Sichern Sie sich Ihr exklusives Traumheim.</h1>
+      <p>
+      Seit dem Spatenstich von April 2022 sind bereits über 80% der exklusiven Wohnungen verkauft.
+      </p> <br>
       <p>
           Florian Meier
           <br><a href="tel:0791979971">T +41 (0)79 197 99 71</a>
           <br><a href="mailto:florian@meierpartnerimmobilien.ch?subject=8%20Öserigi%20Appenzell%20Innerrhoden" target="_top">florian@meierpartnerimmobilien.ch</a>
       </p>
-      <button id="closeButton">Guet</button>
+      <a href="grundrisse-preise"><button id="preisButton">Grundrisse & Preise</button></a>
     </div>
 
     <?php include 'footer.php'; ?>

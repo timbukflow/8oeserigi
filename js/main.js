@@ -50,23 +50,10 @@ $(document).ready(function () {
     });
 
     // Banner //
-
-    const banner = document.getElementById('banner');
-    const closeButton = document.getElementById('closeButton');
-
-    function showBanner() {
-      setTimeout(() => {
-        banner.style.bottom = '20vh';
-      }, 3000);
-    }
-
-    closeButton.addEventListener('click', () => {
-      banner.style.bottom = '-500px';
-      localStorage.setItem('bannerClosed', 'true');
+    
+    $("#closeButton").click(function() {
+        $("#banner").toggleClass("opened");
+        $(".iconx").toggleClass("rotate");
     });
-
-    if (!localStorage.getItem('bannerClosed')) {
-      showBanner();
-    }
-
+    
 });
