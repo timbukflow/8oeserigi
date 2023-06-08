@@ -467,7 +467,7 @@ figcaption.visus {
 }
 table {
   width: 100%;
-  font-size: 18px;
+  font-size: 17px;
 }
 table tr {
   border-bottom: 1px solid;
@@ -852,6 +852,8 @@ h1, h2,p {width: 75%; margin-left: 10%; margin-right: 15%;}
 article {margin-bottom: 50px;}
 .menuunder {width: 80px;}
 .navscroll {height: 100vh; overflow: hidden;}
+#banner{width: 245px; top:20px;}
+#banner.opened {left: -325px;}
 }
 
 @media only screen and (max-width: 480px) {
