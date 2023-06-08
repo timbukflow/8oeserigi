@@ -55,5 +55,12 @@ $(document).ready(function () {
         $("#banner").toggleClass("opened");
         $(".iconx").toggleClass("rotate");
     });
+
+    // Preise hover //
+
+    $('.info-btn').hover(function() {
+      var targetId = $(this).data('target');
+      $('#' + targetId).stop().fadeToggle();
+    });
     
 });

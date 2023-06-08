@@ -74,7 +74,8 @@ figcaption {
 h2, h4, p,
 button,
 .navkontakt a,
-.accordion li {
+.accordion li,
+table {
   color: #333;
   font-family: 'Arimo', sans-serif;
   font-weight: 400;
@@ -433,6 +434,7 @@ figcaption.visus {
   width: 16%;
   padding: 2%;
   float: left;
+  position: relative;
 }
 
 .ghausoverall {
@@ -440,6 +442,43 @@ figcaption.visus {
   padding: 2%;
   margin-left: 20%;
   float: left;
+}
+
+/* preis einzelen Wohnungen */
+
+.st0{fill:none;stroke:#646464;stroke-miterlimit:10;}
+.st1{fill:none;stroke:#B3A280;stroke-miterlimit:10;}
+.st2{opacity:0.5;fill:#B3A280;enable-background:new;}
+
+.fade-in-panel {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 300px;
+  width: 90%;
+  padding: 5%;
+  background-color: #B3A280;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+.fade-in-panel h2 {
+  margin-top: 0;
+}
+table {
+  width: 100%;
+  font-size: 18px;
+}
+table tr {
+  border-bottom: 1px solid;
+}
+
+table tr td {
+  padding: 5px 0;
+}
+
+table tr td:nth-child(2) {
+  text-align: right;
 }
 
 
