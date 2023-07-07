@@ -34,8 +34,8 @@
         <li><a href="modellbilder">Modellbilder</a></li>
         <li><a href="baubeschrieb">Baubeschrieb</a></li>
         <li><a href="webcam">Webcam</a></li>
-        <li><a class="impressum" data-toggle="#impressum">Impressum</a></li>
-        <li><a class="impressum" data-toggle="#datenschutz">Konditionen</a></li>
+        <li><a class="impressum" data-target="#impressum">Impressum</a></li>
+        <li><a class="impressum" data-target="#datenschutz">Konditionen</a></li>
 			</ul>
     </nav>
   </div>

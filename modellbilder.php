@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<!--[if IE 7]>	 <html class="no-js lt-ie9 lt-ie8" lang="de"><![endif]-->
-<!--[if IE 8]>	 <html class="no-js lt-ie9" lang="de"><![endif]-->
-<!--[if gt IE 8]><!--><html class="no-js" lang="de"><!--<![endif]-->
+<html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
 <title>8 &Ouml;serigi | Modellbilder</title>
 <meta name="description" content="8 Öserigi | Modellbilder"/>
@@ -48,5 +46,6 @@
 
     <?php include 'footer.php'; ?>
     <?php include 'script.php'; ?>
+    <?php require_once 'googleanalytics.php'; ?>
 </body>
 </html>

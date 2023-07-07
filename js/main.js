@@ -1,7 +1,5 @@
 $(document).ready(function () {
 
-    setTimeout(function(){$('#loader').fadeOut(800)},800);
-
     // nav //
 
     $(".menu").click(function(){
@@ -38,15 +36,13 @@ $(document).ready(function () {
     });
 
     // impressum //
-
     $('.impressum').click(function() {
-        var totoggle = $(this).attr("data-toggle");
-        $(totoggle).slideToggle(500);
-        $(totoggle).next().hide();
-
-        if ($(totoggle).is(":visible")) {
-            $('html,body').animate({scrollTop:$(totoggle).offset().top}, 1000);
-        }
+        var $target = $($(this).data("target"));
+        $target.slideToggle(500, function() {
+            if ($target.is(":visible")) {
+                $('html,body').animate({scrollTop: $target.offset().top}, 1000);
+            }
+        });
     });
 
     // Banner //
