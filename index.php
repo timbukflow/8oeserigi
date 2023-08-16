@@ -16,7 +16,7 @@
       <article>
         <h1>8 Öserigi</h1>
         <h2>Nach mehrjähriger Planung steht das Projekt nun vor der Ausführung. Gebaut werden 8 Mehrfamilienhäuser mit total 47 Wohneinheiten, 7061 m<sup>2</sup> Geschossfläche und 103 Parkplätzen, verteilt auf 2 Tiefgaragen. Geplanter Baubeginn ist Frühling 2022. Gebaut wird in Etappen, damit regionale Handwerker berücksichtigt werden können. Die ersten Häuser werden im Herbst 2023 bezugsbereit sein. Verkauft werden schlüsselfertige Wohnungen.
-        <span class="copyright">Bilder © TB swiss creative GmbH</span></h2>
+        <span class="copyright">Bilder und Visualisierungen: © TB swiss creative GmbH</span></h2>
         <figure class="imgone">
           <img src="img/8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-drohne.jpg" alt="8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-aussenvisualisierung-01">
           <figcaption class="visus">Drohnenaufnahme: Die Überbauung 8 Öserigi nimmt Gestalt an.</figcaption>
