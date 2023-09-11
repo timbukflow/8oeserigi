@@ -278,7 +278,7 @@
               <rect x="43.1" y="28.8" class="st1" width="42.5" height="14.2"/>
               <rect x="0.5" y="28.8" class="st1" width="42.5" height="14.2"/>
               <rect x="0.5" y="43" class="st1" width="42.5" height="14.2"/>
-              <rect x="0.5" y="14.7" class="st2 info-btn" data-target="a504" width="42.5" height="14.2"/>
+              <!-- <rect x="0.5" y="14.7" class="st2 info-btn" data-target="a504" width="42.5" height="14.2"/> -->
               <rect x="43.1" y="28.8" class="st2 info-btn" data-target="a503" width="42.5" height="14.2"/>
               <rect x="0.5" y="43" class="st2 info-btn" data-target="a501" width="42.5" height="14.2"/>
             </svg>
@@ -289,7 +289,7 @@
           <h4><a href="downloads/8-oeserigi-preise-a5.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Preise A5</a></h4>
           <h4><a href="downloads/8-oeserigi-dossier-a5.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Dossier A5</a></h4>
           <h4 class="verkaufstatus"> 3 Wohnungen verfügbar</h4>
-          <div id="a504" class="fade-in-panel">
+          <!-- <div id="a504" class="fade-in-panel">
             <table>
               <tr>
                 <td> <strong>A5-04</strong></td>
@@ -316,7 +316,7 @@
                 <td><strong>865'000 CHF</strong></td>
               </tr>
             </table>
-          </div>
+          </div> -->
           <div id="a503" class="fade-in-panel">
             <table>
               <tr>
@@ -387,7 +387,6 @@
               <rect x="43.1" y="28.9" class="st1" width="42.5" height="14.2"/>
               <rect x="0.5" y="28.9" class="st1" width="42.5" height="14.2"/>
               <rect x="0.5" y="43" class="st1" width="42.5" height="14.2"/>
-              <rect x="0.5" y="28.9" class="st2 info-btn" data-target="b102" width="42.5" height="14.2"/>
             </svg>
           <!-- <img class="hausimg" src="img/8-oeserigi-grundriss-haus-b-1.svg" alt="8-oeserigi-grundriss-haus-b-1"> -->
           <h3>Haus B1</h3>
@@ -396,34 +395,6 @@
           <h4><a href="downloads/8-oeserigi-preise-b1.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Preise B1</a></h4>
           <h4><a href="downloads/8-oeserigi-dossier-b1.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Dossier B1</a></h4>
           <h4 class="verkaufstatus"> 1 Wohnung verfügbar</h4>
-          <div id="b102" class="fade-in-panel">
-            <table>
-              <tr>
-                <td> <strong>B1-02</strong></td>
-                <td> <strong>4.5 Zi. WHG</strong></td>
-              </tr>
-              <tr>
-                <td>Ebene</td>
-                <td>1. OG</td>
-              </tr>
-              <tr>
-                <td>Nettofläche</td>
-                <td>137 m²</td>
-              </tr>
-              <tr>
-                <td>Aussengeschossfläche</td>
-                <td>20 m²</td>
-              </tr>
-              <tr>
-                <td>Keller 04</td>
-                <td>11 m²</td>
-              </tr>
-              <tr>
-                <td><strong>Verkaufspreis</strong></td>
-                <td><strong>820'000 CHF</strong></td>
-              </tr>
-            </table>
-          </div>
         </div>
         <div class="ghaus">
           <img class="hausimg" src="img/8-oeserigi-grundriss-haus-b-2.svg" alt="8-oeserigi-grundriss-haus-b-2">
