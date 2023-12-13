@@ -279,7 +279,7 @@
               <rect x="0.5" y="28.8" class="st1" width="42.5" height="14.2"/>
               <rect x="0.5" y="43" class="st1" width="42.5" height="14.2"/>
               <!-- <rect x="0.5" y="14.7" class="st2 info-btn" data-target="a504" width="42.5" height="14.2"/> -->
-              <rect x="43.1" y="28.8" class="st2 info-btn" data-target="a503" width="42.5" height="14.2"/>
+              <!-- <rect x="43.1" y="28.8" class="st2 info-btn" data-target="a503" width="42.5" height="14.2"/> -->
               <rect x="0.5" y="43" class="st2 info-btn" data-target="a501" width="42.5" height="14.2"/>
             </svg>
           <!-- <img class="hausimg" src="img/8-oeserigi-grundriss-haus-a-5.svg" alt="8-oeserigi-grundriss-haus-a-5"> -->
@@ -317,7 +317,7 @@
               </tr>
             </table>
           </div> -->
-          <div id="a503" class="fade-in-panel">
+          <!-- <div id="a503" class="fade-in-panel"> 
             <table>
               <tr>
                 <td> <strong>A5-03</strong></td>
@@ -344,7 +344,7 @@
                 <td><strong>845'000 CHF</strong></td>
               </tr>
             </table>
-          </div>
+          </div> -->
           <div id="a501" class="fade-in-panel">
             <table>
               <tr>
