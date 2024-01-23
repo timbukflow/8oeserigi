@@ -288,7 +288,7 @@
           <h4><a href="downloads/8-oeserigi-grundrisse-a5.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Grundrisse A5</a></h4>
           <h4><a href="downloads/8-oeserigi-preise-a5.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Preise A5</a></h4>
           <h4><a href="downloads/8-oeserigi-dossier-a5.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Dossier A5</a></h4>
-          <h4 class="verkaufstatus"> 3 Wohnungen verfügbar</h4>
+          <h4 class="verkaufstatus"> 1 Wohnungen verfügbar</h4>
           <!-- <div id="a504" class="fade-in-panel">
             <table>
               <tr>
