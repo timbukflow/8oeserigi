@@ -394,7 +394,7 @@
           <h4><a href="downloads/8-oeserigi-grundrisse-b1.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Grundrisse B1</a></h4>
           <h4><a href="downloads/8-oeserigi-preise-b1.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Preise B1</a></h4>
           <h4><a href="downloads/8-oeserigi-dossier-b1.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Dossier B1</a></h4>
-          <h4 class="verkaufstatus"> 1 Wohnung verfügbar</h4>
+          <h4 class="verkaufstatus verkauft"> Alle Wohnungen verkauft</h4>
         </div>
         <div class="ghaus">
           <img class="hausimg" src="img/8-oeserigi-grundriss-haus-b-2.svg" alt="8-oeserigi-grundriss-haus-b-2">
