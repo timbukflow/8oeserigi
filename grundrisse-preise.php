@@ -174,7 +174,7 @@
               <rect x="0.5" y="43" class="st1" width="42.5" height="14.2"/>
               <rect x="43.1" y="0.5" class="st2 info-btn" data-target="a406" width="42.5" height="14.2"/>
               <rect x="43.1" y="14.6" class="st2 info-btn" data-target="a405" width="42.5" height="14.2"/>
-              <rect x="0.5" y="28.9" class="st2 info-btn" data-target="a402" width="42.5" height="14.2"/>
+              <!-- <rect x="0.5" y="28.9" class="st2 info-btn" data-target="a402" width="42.5" height="14.2"/> -->
             </svg>
           <!-- <img class="hausimg" src="img/8-oeserigi-grundriss-haus-a-4.svg" alt="8-oeserigi-grundriss-haus-a-4"> -->
           <h3>Haus A4</h3>
@@ -182,7 +182,7 @@
           <h4><a href="downloads/8-oeserigi-grundrisse-a4.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Grundrisse A4</a></h4>
           <h4><a href="downloads/8-oeserigi-preise-a4.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Preise A4</a></h4>
           <h4><a href="downloads/8-oeserigi-dossier-a4.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Dossier A4</a></h4>
-          <h4 class="verkaufstatus"> 3 Wohnungen verfügbar</h4>
+          <h4 class="verkaufstatus"> 2 Wohnungen verfügbar</h4>
           <div id="a406" class="fade-in-panel">
             <table>
               <tr>
@@ -239,7 +239,7 @@
               </tr>
             </table>
           </div>
-          <div id="a402" class="fade-in-panel">
+          <!-- <div id="a402" class="fade-in-panel">
             <table>
               <tr>
                 <td> <strong>A4-02</strong></td>
@@ -266,7 +266,7 @@
                 <td><strong>985'000 CHF</strong></td>
               </tr>
             </table>
-          </div>
+          </div> -->
         </div>
         <div class="ghaus">
           <svg class="hausimg" version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
