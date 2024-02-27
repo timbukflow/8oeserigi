@@ -23,7 +23,6 @@
             <rect x="0.5" y="28.9" class="st1" width="42.5" height="14.2"/>
             <rect x="0.5" y="43" class="st1" width="42.5" height="14.2"/>
             <rect x="43.1" y="28.9" class="st2 info-btn" data-target="a103" width="42.5" height="14.2"/>
-            <rect x="0.5" y="43" class="st2 info-btn" data-target="a101"  width="42.5" height="14.2"/>
           </svg>
           <!-- <img class="hausimg" src="img/8-oeserigi-grundriss-haus-a-1.svg" alt="8-oeserigi-grundriss-haus-a-1"> -->
           <h3>Haus A1</h3>
@@ -31,36 +30,8 @@
           <h4><a href="downloads/8-oeserigi-grundrisse-a1.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Grundrisse A1</a></h4>
           <h4><a href="downloads/8-oeserigi-preise-a1.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Preise A1</a></h4>
           <h4><a href="downloads/8-oeserigi-dossier-a1.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Dossier A1</a></h4>
-          <h4 class="verkaufstatus"> 2 Wohnungen verfügbar</h4>
+          <h4 class="verkaufstatus"> 1 Wohnung verfügbar</h4>
           
-          <div id="a101" class="fade-in-panel">
-            <table>
-              <tr>
-                <td> <strong>A1-01</strong></td>
-                <td> <strong>5.5 Zi. WHG</strong></td>
-              </tr>
-              <tr>
-                <td>Ebene</td>
-                <td>EG</td>
-              </tr>
-              <tr>
-                <td>Nettofläche</td>
-                <td>140 m²</td>
-              </tr>
-              <tr>
-                <td>Aussengeschossfläche</td>
-                <td>105 m²</td>
-              </tr>
-              <tr>
-                <td>Keller 04</td>
-                <td>14 m²</td>
-              </tr>
-              <tr>
-                <td><strong>Verkaufspreis</strong></td>
-                <td><strong>1'049'000 CHF</strong></td>
-              </tr>
-            </table>
-          </div>
           <div id="a103" class="fade-in-panel">
             <table>
               <tr>
@@ -122,7 +93,6 @@
               <rect x="43.1" y="28.9" class="st1" width="42.5" height="14.2"/>
               <rect x="0.5" y="28.9" class="st1" width="42.5" height="14.2"/>
               <rect x="0.5" y="43" class="st1" width="42.5" height="14.2"/>
-              <rect x="0.5" y="28.9" class="st2 info-btn" data-target="a302" width="42.5" height="14.2"/>
             </svg>
           <!-- <img class="hausimg" src="img/8-oeserigi-grundriss-haus-a-3.svg" alt="8-oeserigi-grundriss-haus-a-3"> -->
           <h3>Haus A3</h3>
@@ -130,36 +100,7 @@
           <h4><a href="downloads/8-oeserigi-grundrisse-a3.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Grundrisse A3</a></h4>
           <h4><a href="downloads/8-oeserigi-preise-a3.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Preise A3</a></h4>
           <h4><a href="downloads/8-oeserigi-dossier-a3.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Dossier A3</a></h4>
-          <h4 class="verkaufstatus"> 1 Wohnung verfügbar</h4>
-          
-          <div id="a302" class="fade-in-panel">
-            <table>
-              <tr>
-                <td> <strong>A3-02</strong></td>
-                <td> <strong>4.5 Zi. WHG</strong></td>
-              </tr>
-              <tr>
-                <td>Ebene</td>
-                <td>1. OG</td>
-              </tr>
-              <tr>
-                <td>Nettofläche</td>
-                <td>121 m²</td>
-              </tr>
-              <tr>
-                <td>Aussengeschossfläche</td>
-                <td>15 m²</td>
-              </tr>
-              <tr>
-                <td>Keller 03</td>
-                <td>11 m²</td>
-              </tr>
-              <tr>
-                <td><strong>Verkaufspreis</strong></td>
-                <td><strong>820'000 CHF</strong></td>
-              </tr>
-            </table>
-          </div>
+          <h4 class="verkaufstatus verkauft"> Alle Wohnungen verkauft</h4> 
         </div>
         <div class="ghaus">
           <svg class="hausimg" version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -239,34 +180,6 @@
               </tr>
             </table>
           </div>
-          <!-- <div id="a402" class="fade-in-panel">
-            <table>
-              <tr>
-                <td> <strong>A4-02</strong></td>
-                <td> <strong>5.5 Zi. WHG</strong></td>
-              </tr>
-              <tr>
-                <td>Ebene</td>
-                <td>1. OG</td>
-              </tr>
-              <tr>
-                <td>Nettofläche</td>
-                <td>159 m²</td>
-              </tr>
-              <tr>
-                <td>Aussengeschossfläche</td>
-                <td>17 m²</td>
-              </tr>
-              <tr>
-                <td>Keller 03</td>
-                <td>12 m²</td>
-              </tr>
-              <tr>
-                <td><strong>Verkaufspreis</strong></td>
-                <td><strong>985'000 CHF</strong></td>
-              </tr>
-            </table>
-          </div> -->
         </div>
         <div class="ghaus">
           <svg class="hausimg" version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -278,9 +191,6 @@
               <rect x="43.1" y="28.8" class="st1" width="42.5" height="14.2"/>
               <rect x="0.5" y="28.8" class="st1" width="42.5" height="14.2"/>
               <rect x="0.5" y="43" class="st1" width="42.5" height="14.2"/>
-              <!-- <rect x="0.5" y="14.7" class="st2 info-btn" data-target="a504" width="42.5" height="14.2"/> -->
-              <!-- <rect x="43.1" y="28.8" class="st2 info-btn" data-target="a503" width="42.5" height="14.2"/> -->
-              <rect x="0.5" y="43" class="st2 info-btn" data-target="a501" width="42.5" height="14.2"/>
             </svg>
           <!-- <img class="hausimg" src="img/8-oeserigi-grundriss-haus-a-5.svg" alt="8-oeserigi-grundriss-haus-a-5"> -->
           <h3>Haus A5</h3>
@@ -288,91 +198,7 @@
           <h4><a href="downloads/8-oeserigi-grundrisse-a5.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Grundrisse A5</a></h4>
           <h4><a href="downloads/8-oeserigi-preise-a5.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Preise A5</a></h4>
           <h4><a href="downloads/8-oeserigi-dossier-a5.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Dossier A5</a></h4>
-          <h4 class="verkaufstatus"> 1 Wohnungen verfügbar</h4>
-          <!-- <div id="a504" class="fade-in-panel">
-            <table>
-              <tr>
-                <td> <strong>A5-04</strong></td>
-                <td> <strong>3.5 Zi. WHG</strong></td>
-              </tr>
-              <tr>
-                <td>Ebene</td>
-                <td>DG</td>
-              </tr>
-              <tr>
-                <td>Nettofläche</td>
-                <td>116 m²</td>
-              </tr>
-              <tr>
-                <td>Aussengeschossfläche</td>
-                <td>15 m²</td>
-              </tr>
-              <tr>
-                <td>Keller 03</td>
-                <td>14 m²</td>
-              </tr>
-              <tr>
-                <td><strong>Verkaufspreis</strong></td>
-                <td><strong>865'000 CHF</strong></td>
-              </tr>
-            </table>
-          </div> -->
-          <!-- <div id="a503" class="fade-in-panel"> 
-            <table>
-              <tr>
-                <td> <strong>A5-03</strong></td>
-                <td> <strong>4.5 Zi. WHG</strong></td>
-              </tr>
-              <tr>
-                <td>Ebene</td>
-                <td>1. OG</td>
-              </tr>
-              <tr>
-                <td>Nettofläche</td>
-                <td>113 m²</td>
-              </tr>
-              <tr>
-                <td>Aussengeschossfläche</td>
-                <td>89 m²</td>
-              </tr>
-              <tr>
-                <td>Keller 04</td>
-                <td>12 m²</td>
-              </tr>
-              <tr>
-                <td><strong>Verkaufspreis</strong></td>
-                <td><strong>845'000 CHF</strong></td>
-              </tr>
-            </table>
-          </div> -->
-          <div id="a501" class="fade-in-panel">
-            <table>
-              <tr>
-                <td> <strong>A5-01</strong></td>
-                <td> <strong>4.5 Zi. WHG</strong></td>
-              </tr>
-              <tr>
-                <td>Ebene</td>
-                <td>EG</td>
-              </tr>
-              <tr>
-                <td>Nettofläche</td>
-                <td>127 m²</td>
-              </tr>
-              <tr>
-                <td>Aussengeschossfläche</td>
-                <td>80 m²</td>
-              </tr>
-              <tr>
-                <td>Keller 01</td>
-                <td>15 m²</td>
-              </tr>
-              <tr>
-                <td><strong>Verkaufspreis</strong></td>
-                <td><strong>832'000 CHF</strong></td>
-              </tr>
-            </table>
-          </div>
+          <h4 class="verkaufstatus verkauft"> Alle Wohnungen verkauft</h4>
         </div>
       </article>
       <article class="gbereich">
