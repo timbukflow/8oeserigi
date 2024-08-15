@@ -123,7 +123,7 @@
           <h4><a href="downloads/8-oeserigi-grundrisse-a4.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Grundrisse A4</a></h4>
           <h4><a href="downloads/8-oeserigi-preise-a4.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Preise A4</a></h4>
           <h4><a href="downloads/8-oeserigi-dossier-a4.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Dossier A4</a></h4>
-          <h4 class="verkaufstatus"> 2 Wohnungen verfügbar</h4>
+          <h4 class="verkaufstatus"> 1 Wohnung verfügbar</h4>
           <!-- <div id="a406" class="fade-in-panel">
             <table>
               <tr>
