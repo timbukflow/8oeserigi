@@ -113,7 +113,7 @@
               <rect x="43.1" y="28.9" class="st1" width="42.5" height="14.2"/>
               <rect x="0.5" y="28.9" class="st1" width="42.5" height="14.2"/>
               <rect x="0.5" y="43" class="st1" width="42.5" height="14.2"/>
-              <rect x="43.1" y="0.5" class="st2 info-btn" data-target="a406" width="42.5" height="14.2"/>
+              <!-- <rect x="43.1" y="0.5" class="st2 info-btn" data-target="a406" width="42.5" height="14.2"/> -->
               <rect x="43.1" y="14.6" class="st2 info-btn" data-target="a405" width="42.5" height="14.2"/>
               <!-- <rect x="0.5" y="28.9" class="st2 info-btn" data-target="a402" width="42.5" height="14.2"/> -->
             </svg>
@@ -124,7 +124,7 @@
           <h4><a href="downloads/8-oeserigi-preise-a4.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Preise A4</a></h4>
           <h4><a href="downloads/8-oeserigi-dossier-a4.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Dossier A4</a></h4>
           <h4 class="verkaufstatus"> 2 Wohnungen verfügbar</h4>
-          <div id="a406" class="fade-in-panel">
+          <!-- <div id="a406" class="fade-in-panel">
             <table>
               <tr>
                 <td> <strong>A4-06</strong></td>
@@ -151,7 +151,7 @@
                 <td><strong>1'020'000 CHF</strong></td>
               </tr>
             </table>
-          </div>
+          </div> -->
           <div id="a405" class="fade-in-panel">
             <table>
               <tr>
