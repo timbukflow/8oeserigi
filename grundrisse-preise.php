@@ -191,7 +191,7 @@
               <rect x="43.1" y="28.8" class="st1" width="42.5" height="14.2"/>
               <rect x="0.5" y="28.8" class="st1" width="42.5" height="14.2"/>
               <rect x="0.5" y="43" class="st1" width="42.5" height="14.2"/>
-              <rect x="0.5" y="43" class="st2 info-btn" data-target="a501" width="42.5" height="14.2"/>
+              <!-- <rect x="0.5" y="43" class="st2 info-btn" data-target="a501" width="42.5" height="14.2"/> -->
             </svg>
           <!-- <img class="hausimg" src="img/8-oeserigi-grundriss-haus-a-5.svg" alt="8-oeserigi-grundriss-haus-a-5"> -->
           <h3>Haus A5</h3>
@@ -199,8 +199,8 @@
           <h4><a href="downloads/8-oeserigi-grundrisse-a5.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Grundrisse A5</a></h4>
           <h4><a href="downloads/8-oeserigi-preise-a5.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Preise A5</a></h4>
           <h4><a href="downloads/8-oeserigi-dossier-a5.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Dossier A5</a></h4>
-          <h4 class="verkaufstatus"> 1 Wohnung verfügbar</h4>
-          <div id="a501" class="fade-in-panel">
+          <h4 class="verkaufstatus verkauft"> Alle Wohnungen verkauft</h4> 
+          <!-- <div id="a501" class="fade-in-panel">
             <table>
               <tr>
                 <td> <strong>A5-01</strong></td>
@@ -227,7 +227,7 @@
                 <td><strong>832'000 CHF</strong></td>
               </tr>
             </table>
-          </div>
+          </div> -->
         </div>
       </article>
       <article class="gbereich">
