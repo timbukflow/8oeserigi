@@ -107,6 +107,10 @@ h2.title {
   right: 0;
 }
 
+.free {
+  margin-top: 100px;
+}
+
 /*----------------------------------
     header nav
 -----------------------------------*/
@@ -199,7 +203,7 @@ h2.title {
   background-color: #B3A280;
   padding: 40px;
   transition: left 0.3s;
-  box-shadow: 0px 0px 15px 7px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 15px 7px rgba(0,0,0,0.1);
 }
 
 #banner.opened {
