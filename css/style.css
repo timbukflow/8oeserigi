@@ -212,7 +212,7 @@ h2.title {
 }
 
 #banner h1 {
-  font-size: 28px;
+  font-size: 36px;
   color: #333;
   width: auto;
   margin: 0 0 25px ;
@@ -433,7 +433,7 @@ figcaption.visus {
 
 .st0{fill:none;stroke:#646464;stroke-miterlimit:10;}
 .st1{fill:none;stroke:#B3A280;stroke-miterlimit:10;}
-.st2{opacity:0.5;fill:#B3A280;enable-background:new;}
+.st2{opacity:1;fill:#B3A280;enable-background:new;}
 
 .fade-in-panel {
   display: none;
@@ -501,7 +501,7 @@ table tr td:nth-child(2) {
 
 .ghaus h4.verkaufstatus {
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 19px;
   border-bottom: none;
 }
 
