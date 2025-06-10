@@ -21,7 +21,7 @@
         </p>    
 
         <div class="lastone">
-          <h4><a href="downloads/8-oeserigi-grundrisse-a1.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Grundriss A1-03</a></h4>
+          <h4><a href="downloads/8-oeserigi-grundrisse-a1-03.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Grundriss A1-03</a></h4>
           <h4><a href="downloads/8-oeserigi-preise-a1.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Preis A1-03</a></h4>
           <!-- <h4><a href="downloads/8-oeserigi-dossier-a1.pdf" target="_blank"><img src="img/download-icon.svg" width="16" height="16" alt="download icon"> Dossier A1</a></h4> -->
         </div>
