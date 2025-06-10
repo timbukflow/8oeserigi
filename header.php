@@ -5,10 +5,10 @@
 		<ul class="navline">
 			<li><a href="index">8 Öserigi</a></li>
 			<li><a href="standort">Standort</a></li>
-			<li><a href="grundrisse-preise">Grundrisse & Preise</a></li>
+			<!-- <li><a href="grundrisse-preise">Grundrisse & Preise</a></li> -->
 			<li><a href="modellbilder">Modellbilder</a></li>
         	<li><a href="baubeschrieb">Baubeschrieb</a></li>
-        	<li><a href="webcam">Webcam</a></li>
+        	<!-- <li><a href="webcam">Webcam</a></li> -->
 		</ul>
 		<div class="navkontakt">
 			<a href="https://meierpartnerimmobilien.ch/" target="_blank"> <strong>Meier & Partner Immobilien AG</strong></a>

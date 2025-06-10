@@ -108,8 +108,61 @@ h2.title {
 }
 
 .free {
-  margin-top: 100px;
+  line-height: 1.15;
+  margin-bottom: 50px;
 }
+
+.lastone {
+  margin-bottom: 60px;
+}
+
+.lastone h4 a {
+  color: #B3A280;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  display: inline-block;
+  width: 80%;
+  margin: 0 10%;
+  padding-bottom: 15px;
+  padding-top: 5px;
+  -webkit-transition: padding-left 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: padding-left 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.lastone p {
+  color: #B3A280;
+  text-decoration: none;
+  display: inline-block;
+  width: 80%;
+  margin: 0 10%;
+  padding-bottom: 30px;
+  padding-top: 5px;
+}
+
+.lastone a {
+  color: #B3A280;
+  text-decoration: none;
+}
+
+.lastone a #preisButton  {
+  margin: 0 10%;
+  margin-top: 20px;
+}
+
+
+
+.lastone h4{
+  margin: 5px 0;
+}
+
+.lastone h4 a:hover{
+  padding-left: 10px;
+}
+
+.lastone p {
+  margin: 0 10%;
+}
+
 
 /*----------------------------------
     header nav
@@ -234,7 +287,7 @@ h2.title {
 }
 
 #preisButton {
-  background-color: #333;
+  background-color: #B3A280;
   border-radius: 5px;
   border: none;
   color: white;
@@ -278,7 +331,7 @@ h2.title {
 -----------------------------------*/
 
 .start {
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   position: relative;
   margin: 0 auto;

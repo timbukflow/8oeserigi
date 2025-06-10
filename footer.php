@@ -30,10 +30,10 @@
       <ul class="navline">
 				<li><a href="index">8 Öserigi</a></li>
 				<li><a href="standort">Standort</a></li>
-				<li><a href="grundrisse-preise">Grundrisse & Preise</a></li>
+				<!-- <li><a href="grundrisse-preise">Grundrisse & Preise</a></li> -->
         <li><a href="modellbilder">Modellbilder</a></li>
         <li><a href="baubeschrieb">Baubeschrieb</a></li>
-        <li><a href="webcam">Webcam</a></li>
+        <!-- <li><a href="webcam">Webcam</a></li> -->
         <li><a class="impressum" data-target="#impressum">Impressum</a></li>
         <li><a class="impressum" data-target="#datenschutz">Konditionen</a></li>
 			</ul>
@@ -46,7 +46,7 @@
         <br><a href="https://goo.gl/maps/bBmLDGMJSYqbwbmj8">Gallusstrasse 43, 9000 St. Gallen</a><br>
         <a href="https://schwizerdesign.ch/" target="_top">www.schwizerdesign.ch</a>
       </p>
-      <p class="disclaimer">© 2023 8 Öserigi | Appenzell Innerrhoden. All rights reserved</p>
+      <p class="disclaimer">© 2025 8 Öserigi | Appenzell Innerrhoden. All rights reserved</p>
   </div>
   <div id="datenschutz">
       <p>
